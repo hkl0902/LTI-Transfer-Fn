@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SwiftCharts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

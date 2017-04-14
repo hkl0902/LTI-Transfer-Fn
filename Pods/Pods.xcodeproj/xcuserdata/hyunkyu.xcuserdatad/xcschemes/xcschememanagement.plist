@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-LTI-Project.xcscheme</key>
+		<key>Charts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SwiftCharts.xcscheme</key>
+		<key>Pods-LTI-Project.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2E69A6D08954B8A9CAE81571B6F8CFE6</key>
+		<key>50812DCA39DC92E0029010017860CC78</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F6B46CB1350440EE31F1544399565EC3</key>
+		<key>F307B842FF76B2DE6C55DB67C0885325</key>
 		<dict>
 			<key>primary</key>
 			<true/>
