@@ -1,0 +1,6 @@
+framework module Pods_LTI_Project {
+  umbrella header "Pods-LTI-Project-umbrella.h"
+
+  export *
+  module * { export * }
+}

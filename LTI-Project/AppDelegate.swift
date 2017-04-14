@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftCharts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //let homeController = HomeController(collectionViewLayout: UICollectionViewFlowLayout())
         window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        
         
         
         return true

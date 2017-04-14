@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E088B742C80053C5EF36CA7 /* Pods_LTI_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F15FCE53470499BF6E4444 /* Pods_LTI_Project.framework */; };
 		4703D3741EA0708100BE1585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3731EA0708100BE1585 /* AppDelegate.swift */; };
 		4703D3761EA0708100BE1585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3751EA0708100BE1585 /* ViewController.swift */; };
 		4703D37B1EA0708100BE1585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4703D37A1EA0708100BE1585 /* Assets.xcassets */; };
 		4703D3891EA0708100BE1585 /* LTI_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3881EA0708100BE1585 /* LTI_ProjectTests.swift */; };
 		4703D3941EA0708100BE1585 /* LTI_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3931EA0708100BE1585 /* LTI_ProjectUITests.swift */; };
+		47D6AAC81EA079AE0075C256 /* SwiftCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D6AAC71EA079AE0075C256 /* SwiftCharts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		4703D38F1EA0708100BE1585 /* LTI-ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LTI-ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4703D3931EA0708100BE1585 /* LTI_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTI_ProjectUITests.swift; sourceTree = "<group>"; };
 		4703D3951EA0708100BE1585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D6AAC71EA079AE0075C256 /* SwiftCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftCharts.framework; path = "../../Library/Developer/Xcode/DerivedData/LTI-Project-chvgpcmslponawbtjezgbhdgtwai/Build/Products/Debug-iphonesimulator/SwiftCharts/SwiftCharts.framework"; sourceTree = "<group>"; };
+		84D7154D8DF4120AD375D814 /* Pods-LTI-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTI-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTI-Project/Pods-LTI-Project.release.xcconfig"; sourceTree = "<group>"; };
+		91A176D361B1989338E37C5F /* Pods-LTI-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTI-Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTI-Project/Pods-LTI-Project.debug.xcconfig"; sourceTree = "<group>"; };
+		E4F15FCE53470499BF6E4444 /* Pods_LTI_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTI_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D6AAC81EA079AE0075C256 /* SwiftCharts.framework in Frameworks */,
+				3E088B742C80053C5EF36CA7 /* Pods_LTI_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +85,8 @@
 				4703D3871EA0708100BE1585 /* LTI-ProjectTests */,
 				4703D3921EA0708100BE1585 /* LTI-ProjectUITests */,
 				4703D3711EA0708100BE1585 /* Products */,
+				C96964DBD2285CD8E3DEA064 /* Pods */,
+				83E6733AC6E115B58D7E5325 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +129,24 @@
 			path = "LTI-ProjectUITests";
 			sourceTree = "<group>";
 		};
+		83E6733AC6E115B58D7E5325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47D6AAC71EA079AE0075C256 /* SwiftCharts.framework */,
+				E4F15FCE53470499BF6E4444 /* Pods_LTI_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C96964DBD2285CD8E3DEA064 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91A176D361B1989338E37C5F /* Pods-LTI-Project.debug.xcconfig */,
+				84D7154D8DF4120AD375D814 /* Pods-LTI-Project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4703D3981EA0708100BE1585 /* Build configuration list for PBXNativeTarget "LTI-Project" */;
 			buildPhases = (
+				BF2E7E928B86A10390214A7B /* [CP] Check Pods Manifest.lock */,
 				4703D36C1EA0708000BE1585 /* Sources */,
 				4703D36D1EA0708000BE1585 /* Frameworks */,
 				4703D36E1EA0708000BE1585 /* Resources */,
+				F7F2970DD9F1899E98B03C3E /* [CP] Embed Pods Frameworks */,
+				7044572751E43EE1A94B06DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +279,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7044572751E43EE1A94B06DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTI-Project/Pods-LTI-Project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF2E7E928B86A10390214A7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F2970DD9F1899E98B03C3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTI-Project/Pods-LTI-Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4703D36C1EA0708000BE1585 /* Sources */ = {
@@ -386,6 +465,7 @@
 		};
 		4703D3991EA0708100BE1585 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91A176D361B1989338E37C5F /* Pods-LTI-Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7WY88RT397;
@@ -399,6 +479,7 @@
 		};
 		4703D39A1EA0708100BE1585 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D7154D8DF4120AD375D814 /* Pods-LTI-Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7WY88RT397;
@@ -487,6 +568,7 @@
 				4703D39A1EA0708100BE1585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4703D39B1EA0708100BE1585 /* Build configuration list for PBXNativeTarget "LTI-ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +577,7 @@
 				4703D39D1EA0708100BE1585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4703D39E1EA0708100BE1585 /* Build configuration list for PBXNativeTarget "LTI-ProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +586,7 @@
 				4703D3A01EA0708100BE1585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
