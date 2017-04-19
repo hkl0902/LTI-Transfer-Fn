@@ -10,15 +10,21 @@ import UIKit
 
 class SolverViewController: UIViewController {
 
-    var solverView = SolverView()
+    var solverView: SolverView?
+    
+    var points: [GraphView.Point] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addSubview(solverView)
-        solverView.backgroundColor = .yellow
+        solverView = SolverView(frame: self.view.frame)
+        self.view.addSubview(solverView!)
+        solverView?.backgroundColor = .yellow
+        
     }
     
     override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
     }
     
     
