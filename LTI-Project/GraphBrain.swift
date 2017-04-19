@@ -20,17 +20,17 @@ class GraphBrain {
     var view: UIView?
     
     func addPole(pole: CGPoint) {
-        poles += [centerPoint(pole)]
+        poles += [getGraphPoint(pole)]
     }
     
     func addZero(zero: CGPoint) {
-        zeros += [centerPoint(zero)]
+        zeros += [getGraphPoint(zero)]
     }
     
     // Centers a point given the superview
-    // point: the result of a touch or click on the surface
-    // @return: the x and y value of that point given the above maxY/maxX
-    func centerPoint(_ point: CGPoint) -> CGPoint {
+    // point: the result of a touch or click on the surface (the viewPoint)
+    // @return: the x and y value of that point given the above maxY/maxX (the graphPoint)
+    func getGraphPoint(_ point: CGPoint) -> CGPoint {
         guard let view = view else { return CGPoint(x: 0, y: 0) } 
         let midX = view.bounds.midX
         let midY = view.bounds.midY
@@ -42,13 +42,25 @@ class GraphBrain {
     }
     
     
-    // given a point in the coordinate system, returns the coordinates in the view coordinate system
-    func getLocation(_ point: CGPoint) {
+    // given a graphPoint, returns the viewPoint
+    func getViewPoint(_ point: CGPoint) -> CGPoint {
+        guard let view = view else { return CGPoint(x: 0, y: 0) }
         let maxX = view.bounds.maxX
         let maxY = view.bounds.maxY
         let midX = view.bounds.midX
         let midY = view.bounds.midY
-        return CGPoint(x: point/2*maxX/GraphBrain.MAX_X + midX, y: -y/2*maxY/GraphBrain.MAX_Y + midY)
+        return CGPoint(x: point.x/2*maxX/GraphBrain.MAX_X + midX, y: -point.y/2*maxY/GraphBrain.MAX_Y + midY)
+    }
+    
+    // Given a viewPoint, returns the conjugate in viewPoint; nil if the conjugate is the same as the original point
+    func getConjugate(_ point: CGPoint) -> CGPoint? {
+        let centered = getGraphPoint(point)
+        if centered.y == 0 {
+            return nil
+        }
+        let conjugate = CGPoint(x: centered.x, y: -centered.y)
+        return getViewPoint(conjugate)
+        
     }
     
 }
