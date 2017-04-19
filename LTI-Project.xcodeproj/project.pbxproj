@@ -14,6 +14,7 @@
 		4703D3891EA0708100BE1585 /* LTI_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3881EA0708100BE1585 /* LTI_ProjectTests.swift */; };
 		4703D3941EA0708100BE1585 /* LTI_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3931EA0708100BE1585 /* LTI_ProjectUITests.swift */; };
 		47ADD6A01EA6DB2200C3B685 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADD69F1EA6DB2200C3B685 /* GraphView.swift */; };
+		47ADD6A41EA6F1F000C3B685 /* GraphBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADD6A31EA6F1F000C3B685 /* GraphBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4703D3951EA0708100BE1585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47A126E81EA12C6600C72EC7 /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CorePlot.framework; path = "Pods/../build/Debug-iphoneos/CorePlot/CorePlot.framework"; sourceTree = "<group>"; };
 		47ADD69F1EA6DB2200C3B685 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		47ADD6A31EA6F1F000C3B685 /* GraphBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphBrain.swift; sourceTree = "<group>"; };
 		47D6AAC71EA079AE0075C256 /* SwiftCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftCharts.framework; path = "../../Library/Developer/Xcode/DerivedData/LTI-Project-chvgpcmslponawbtjezgbhdgtwai/Build/Products/Debug-iphonesimulator/SwiftCharts/SwiftCharts.framework"; sourceTree = "<group>"; };
 		47D6AAC91EA07D120075C256 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../Library/Developer/Xcode/DerivedData/LTI-Project-chvgpcmslponawbtjezgbhdgtwai/Build/Products/Debug-iphonesimulator/Charts/Charts.framework"; sourceTree = "<group>"; };
 		84D7154D8DF4120AD375D814 /* Pods-LTI-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTI-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTI-Project/Pods-LTI-Project.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				4703D3731EA0708100BE1585 /* AppDelegate.swift */,
 				4703D3751EA0708100BE1585 /* ViewController.swift */,
+				47ADD6A31EA6F1F000C3B685 /* GraphBrain.swift */,
 				47ADD69F1EA6DB2200C3B685 /* GraphView.swift */,
 				4703D37A1EA0708100BE1585 /* Assets.xcassets */,
 				4703D37F1EA0708100BE1585 /* Info.plist */,
@@ -339,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4703D3761EA0708100BE1585 /* ViewController.swift in Sources */,
+				47ADD6A41EA6F1F000C3B685 /* GraphBrain.swift in Sources */,
 				4703D3741EA0708100BE1585 /* AppDelegate.swift in Sources */,
 				47ADD6A01EA6DB2200C3B685 /* GraphView.swift in Sources */,
 			);
