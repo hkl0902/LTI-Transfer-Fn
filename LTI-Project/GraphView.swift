@@ -11,6 +11,7 @@ import Foundation
 
 class GraphView: UIView {
     
+    // Not necessary in GraphViewCoordinates
     enum Point {
         case Zero(CGPoint)
         case Pole(CGPoint)

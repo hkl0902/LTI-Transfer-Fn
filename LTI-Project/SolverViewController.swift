@@ -14,12 +14,22 @@ class SolverViewController: UIViewController {
     
     var points: [GraphView.Point] = []
     
+    var textView: UITextView!
+    
+    var brain = Solver()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         solverView = SolverView(frame: self.view.frame)
         self.view.addSubview(solverView!)
-        solverView?.backgroundColor = .yellow
-        print(points)
+        //solverView?.backgroundColor = .yellow
+        textView = UITextView(frame: self.view.frame)
+        solverView?.addSubview(textView)
+        // Show Diff Eq
+        brain.roots = points
+        brain.transferFunction()
+        let (xStr, yStr) = brain.getDifferenceEquation()
+        textView.text = xStr + " = " + yStr
         
     }
     
