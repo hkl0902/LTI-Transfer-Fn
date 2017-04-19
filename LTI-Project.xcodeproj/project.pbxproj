@@ -17,9 +17,9 @@
 		472069AD1EA6FA5C00D6CC86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069A61EA6FA5C00D6CC86 /* AppDelegate.swift */; };
 		472069AE1EA6FA5C00D6CC86 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069A71EA6FA5C00D6CC86 /* GraphView.swift */; };
 		472069AF1EA6FA5C00D6CC86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472069A81EA6FA5C00D6CC86 /* Assets.xcassets */; };
-		47D282B21EA7DC6E008D3AA5 /* SolverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D282B11EA7DC6E008D3AA5 /* SolverViewController.swift */; };
-		47D282B41EA7DCEB008D3AA5 /* SolverBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D282B31EA7DCEB008D3AA5 /* SolverBrain.swift */; };
-		47D282B61EA7DCFD008D3AA5 /* SolverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D282B51EA7DCFD008D3AA5 /* SolverView.swift */; };
+		47377A951EA7F37700912776 /* SolverBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47377A921EA7F37700912776 /* SolverBrain.swift */; };
+		47377A961EA7F37700912776 /* SolverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47377A931EA7F37700912776 /* SolverViewController.swift */; };
+		47377A971EA7F37700912776 /* SolverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47377A941EA7F37700912776 /* SolverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		472069A61EA6FA5C00D6CC86 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "LTI-Project/AppDelegate.swift"; sourceTree = "<group>"; };
 		472069A71EA6FA5C00D6CC86 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphView.swift; path = "LTI-Project/GraphView.swift"; sourceTree = "<group>"; };
 		472069A81EA6FA5C00D6CC86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "LTI-Project/Assets.xcassets"; sourceTree = "<group>"; };
+		47377A921EA7F37700912776 /* SolverBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolverBrain.swift; path = "LTI-Project/SolverBrain.swift"; sourceTree = "<group>"; };
+		47377A931EA7F37700912776 /* SolverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolverViewController.swift; path = "LTI-Project/SolverViewController.swift"; sourceTree = "<group>"; };
+		47377A941EA7F37700912776 /* SolverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolverView.swift; path = "LTI-Project/SolverView.swift"; sourceTree = "<group>"; };
 		47A126E81EA12C6600C72EC7 /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CorePlot.framework; path = "Pods/../build/Debug-iphoneos/CorePlot/CorePlot.framework"; sourceTree = "<group>"; };
-		47D282B11EA7DC6E008D3AA5 /* SolverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolverViewController.swift; sourceTree = "<group>"; };
-		47D282B31EA7DCEB008D3AA5 /* SolverBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolverBrain.swift; sourceTree = "<group>"; };
-		47D282B51EA7DCFD008D3AA5 /* SolverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolverView.swift; sourceTree = "<group>"; };
 		47D6AAC71EA079AE0075C256 /* SwiftCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftCharts.framework; path = "../../Library/Developer/Xcode/DerivedData/LTI-Project-chvgpcmslponawbtjezgbhdgtwai/Build/Products/Debug-iphonesimulator/SwiftCharts/SwiftCharts.framework"; sourceTree = "<group>"; };
 		47D6AAC91EA07D120075C256 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../Library/Developer/Xcode/DerivedData/LTI-Project-chvgpcmslponawbtjezgbhdgtwai/Build/Products/Debug-iphonesimulator/Charts/Charts.framework"; sourceTree = "<group>"; };
 		84D7154D8DF4120AD375D814 /* Pods-LTI-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTI-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTI-Project/Pods-LTI-Project.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		472069A01EA6F8FF00D6CC86 /* LTI-Project */ = {
 			isa = PBXGroup;
 			children = (
-				47D282B71EA7DD00008D3AA5 /* Solver */,
+				47377A981EA7F37D00912776 /* Solver */,
 				472069A21EA6FA5C00D6CC86 /* Base.lproj */,
 				47D282B01EA7DC1E008D3AA5 /* Graph */,
 				472069A51EA6FA5C00D6CC86 /* Info.plist */,
@@ -146,6 +146,16 @@
 			name = "LTI-Project";
 			sourceTree = "<group>";
 		};
+		47377A981EA7F37D00912776 /* Solver */ = {
+			isa = PBXGroup;
+			children = (
+				47377A921EA7F37700912776 /* SolverBrain.swift */,
+				47377A931EA7F37700912776 /* SolverViewController.swift */,
+				47377A941EA7F37700912776 /* SolverView.swift */,
+			);
+			name = Solver;
+			sourceTree = "<group>";
+		};
 		47D282B01EA7DC1E008D3AA5 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,16 +164,6 @@
 				472069A71EA6FA5C00D6CC86 /* GraphView.swift */,
 			);
 			name = Graph;
-			sourceTree = "<group>";
-		};
-		47D282B71EA7DD00008D3AA5 /* Solver */ = {
-			isa = PBXGroup;
-			children = (
-				47D282B11EA7DC6E008D3AA5 /* SolverViewController.swift */,
-				47D282B51EA7DCFD008D3AA5 /* SolverView.swift */,
-				47D282B31EA7DCEB008D3AA5 /* SolverBrain.swift */,
-			);
-			name = Solver;
 			sourceTree = "<group>";
 		};
 		83E6733AC6E115B58D7E5325 /* Frameworks */ = {
@@ -376,12 +376,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				472069AD1EA6FA5C00D6CC86 /* AppDelegate.swift in Sources */,
+				47377A961EA7F37700912776 /* SolverViewController.swift in Sources */,
+				47377A951EA7F37700912776 /* SolverBrain.swift in Sources */,
 				472069AA1EA6FA5C00D6CC86 /* ViewController.swift in Sources */,
+				47377A971EA7F37700912776 /* SolverView.swift in Sources */,
 				472069AB1EA6FA5C00D6CC86 /* GraphBrain.swift in Sources */,
-				47D282B21EA7DC6E008D3AA5 /* SolverViewController.swift in Sources */,
-				47D282B61EA7DCFD008D3AA5 /* SolverView.swift in Sources */,
 				472069AE1EA6FA5C00D6CC86 /* GraphView.swift in Sources */,
-				47D282B41EA7DCEB008D3AA5 /* SolverBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
