@@ -11,16 +11,27 @@ import UIKit
 
 class GraphBrain {
     
-    var poles: [CGPoint]?
-    var zeros: [CGPoint]?
+    // All the poles and zeros (properly centered)
+    var poles: [CGPoint]
+    var zeros: [CGPoint]
+    var view: UIView
     
-    init() {
+    init(view: UIView) {
         poles = []
         zeros = []
+        self.view = view
+    }
+    
+    func addPole(pole: CGPoint) {
+        poles += [centerPoint(pole)]
+    }
+    
+    func addZero(zero: CGPoint) {
+        zeros += [centerPoint(zero)]
     }
     
     // Centers a point given the superview
-    private func centerPoint(point: CGPoint, view: UIView) -> CGPoint {
+    private func centerPoint(_ point: CGPoint) -> CGPoint {
         let midX = view.bounds.midX
         let midY = view.bounds.midY
         // TODO: Correct the scaling
