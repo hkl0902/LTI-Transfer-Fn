@@ -31,7 +31,7 @@ class GraphView: UIView {
         let minX = self.bounds.minX
         let maxY = self.bounds.maxY
         let minY = self.bounds.minY
-        //
+        // yaxis
         yAxis = UIBezierPath()
         yAxis?.move(to: CGPoint(x: midX, y: minY))
         yAxis?.addLine(to: CGPoint(x: midX, y: maxY))
@@ -53,10 +53,23 @@ class GraphView: UIView {
         xAxis?.close()
         // unit cricle
         unitCircle = UIBezierPath(arcCenter: CGPoint(x: midX, y: midY), radius: midX/10, startAngle: 0, endAngle: 2*CGFloat.pi, clockwise: true)
+        UIColor.red.withAlphaComponent(0.5).setStroke()
         unitCircle?.lineWidth = 1
+        unitCircle?.setLineDash(nil, count: 30, phase: 0)
         unitCircle?.stroke()
-        unitCircle?.fill()
-        unitCircle?.stroke()
+        unitCircle?.close()
+    }
+    
+    private func drawPole(center: CGPoint) {
+        return;
+    }
+    
+    private func drawZero(center: CGPoint) {
+        let path = UIBezierPath(arcCenter: center, radius: 3, startAngle: 0, endAngle: 2*CGFloat.pi, clockwise: true)
+        UIColor.black.setStroke()
+        path.stroke()
+        path.close()
+        return;
     }
     
 }
