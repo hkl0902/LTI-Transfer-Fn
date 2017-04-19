@@ -1,0 +1,2 @@
+default:
+	./testing/tests.swift

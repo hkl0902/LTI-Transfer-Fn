@@ -27,8 +27,10 @@ class Solver {
             }
         }
         
-        var numeratorPolynomials    = [Polynomial]()
-        var denominatorPolynomials  = [Polynomial]()
+        var numeratorPolynomial = Polynomial()
+        numeratorPolynomial.coefficients = [0:(1, 0)]
+        var denominatorPolynomial  = Polynomial()
+        denominatorPolynomial.coefficients = [0:(1, 0)]
         // Go from zeros/poles into a long polynomial of z^{-n}
         // initializeNumerator
         
@@ -36,15 +38,15 @@ class Solver {
         for zero in zeros {
             var p = Polynomial()
             p.coefficients = [0:(-Float(zero.x), -Float(zero.y)), 1:(1.0, 0)] // x - zero
+            numeratorPolynomial.multiplyPolynomial(p)
         }
         
         // initializeDenominator
         
-        
-        
         for pole in poles {
             var p = Polynomial()
             p.coefficients = [0:(-Float(pole.x), -Float(pole.y)), 1:(1.0, 0)] // x - zero
+            denominatorPolynomial.multiplyPolynomial(p)
         }
         
         
@@ -63,7 +65,7 @@ class Polynomial {
                                 // power:coefficient
     
     // Destructively multiplies self with another polynomial
-    func multiplyPolynomial(Q: Polynomial) {
+    func multiplyPolynomial(_ Q: Polynomial) {
         var newCoefficients = [Int: (Float, Float)]()
         
         for (pPower, (pR, pI)) in coefficients {
@@ -81,6 +83,4 @@ class Polynomial {
         
         self.coefficients = newCoefficients
     }
-    
-    
 }

@@ -7,7 +7,6 @@
 //
 
 import XCTest
-
 class LTI_ProjectUITests: XCTestCase {
         
     override func setUp() {

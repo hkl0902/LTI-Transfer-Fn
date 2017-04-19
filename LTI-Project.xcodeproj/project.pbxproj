@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E088B742C80053C5EF36CA7 /* Pods_LTI_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F15FCE53470499BF6E4444 /* Pods_LTI_Project.framework */; };
 		4703D3891EA0708100BE1585 /* LTI_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3881EA0708100BE1585 /* LTI_ProjectTests.swift */; };
 		4703D3941EA0708100BE1585 /* LTI_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3931EA0708100BE1585 /* LTI_ProjectUITests.swift */; };
 		472069A91EA6FA5C00D6CC86 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 472069A21EA6FA5C00D6CC86 /* Base.lproj */; };
@@ -71,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E088B742C80053C5EF36CA7 /* Pods_LTI_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
