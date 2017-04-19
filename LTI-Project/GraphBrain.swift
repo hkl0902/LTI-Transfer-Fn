@@ -30,7 +30,7 @@ class GraphBrain {
     // Centers a point given the superview
     // point: the result of a touch or click on the surface
     // @return: the x and y value of that point given the above maxY/maxX
-    private func centerPoint(_ point: CGPoint) -> CGPoint {
+    func centerPoint(_ point: CGPoint) -> CGPoint {
         guard let view = view else { return CGPoint(x: 0, y: 0) } 
         let midX = view.bounds.midX
         let midY = view.bounds.midY

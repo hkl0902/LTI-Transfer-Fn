@@ -19,7 +19,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let tapGestureRecgonizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.touchInput(gestureRecognizer:)))
+        self.view.addGestureRecognizer(tapGestureRecgonizer)
+    }
+
+    
+    func touchInput(gestureRecognizer: UITapGestureRecognizer) {
+        let loc = gestureRecognizer.location(in: self.view)
+        print(loc)
+        print(graphBrain.centerPoint(loc))
     }
     
     override func viewWillLayoutSubviews() {

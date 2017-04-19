@@ -1,0 +1,1249 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pari",
+				"partialSum0"
+			],
+			[
+				"File",
+				"FILE"
+			],
+			[
+				"fd",
+				"f_depth"
+			],
+			[
+				"parti",
+				"partialSum1"
+			],
+			[
+				"partialS",
+				"partialSum0"
+			],
+			[
+				"make",
+				"make_batch"
+			],
+			[
+				"bia",
+				"biases"
+			],
+			[
+				"softMax",
+				"softmaxTime"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"array",
+				"ARRAY_SIZE"
+			],
+			[
+				"normalize",
+				"normalizeTraining"
+			],
+			[
+				"normali",
+				"normalizeValidation"
+			],
+			[
+				"normal",
+				"normalizationScalers"
+			],
+			[
+				"noram",
+				"normalizedData"
+			],
+			[
+				"cenere",
+				"centeredData"
+			],
+			[
+				"train",
+				"trainingLabels"
+			],
+			[
+				"perfor",
+				"performForwardPass"
+			],
+			[
+				"dz",
+				"dL_dz"
+			],
+			[
+				"norm",
+				"normalizationScalers"
+			],
+			[
+				"centere",
+				"centeredData"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"norma",
+				"normalizedData"
+			],
+			[
+				"normalizeS",
+				"normalizationScalers"
+			],
+			[
+				"recur",
+				"recursiveLook"
+			],
+			[
+				"corr",
+				"correctTitle"
+			],
+			[
+				"origin",
+				"original_language"
+			],
+			[
+				"ori",
+				"origin_country"
+			],
+			[
+				"block",
+				"blocksize"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "AppDelegate.swift",
+			"settings":
+			{
+				"buffer_size": 2618,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "GraphBrain.swift",
+			"settings":
+			{
+				"buffer_size": 1098,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "GraphView.swift",
+			"settings":
+			{
+				"buffer_size": 3688,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ViewController.swift",
+			"settings":
+			{
+				"buffer_size": 1268,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "LTI_Project.sublime-project",
+			"settings":
+			{
+				"buffer_size": 91,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 193.0,
+		"last_filter": "proj",
+		"selected_items":
+		[
+			[
+				"proj",
+				"Project: Edit Project"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"down",
+				"SFTP: Download File"
+			],
+			[
+				"download ",
+				"SFTP: Download File"
+			],
+			[
+				"sftp download",
+				"SFTP: Download File"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sftp sync",
+				"SFTP: Sync Both Directions…"
+			],
+			[
+				"sftp edit",
+				"SFTP: Edit Remote Mapping…"
+			],
+			[
+				"sftp",
+				"SFTP: Edit Server…"
+			],
+			[
+				"packageresou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"sync",
+				"SFTP: Sync Both Directions…"
+			],
+			[
+				"preferenc",
+				"Preferences: Settings"
+			],
+			[
+				"code folding",
+				"Code Folding: Unfold All"
+			],
+			[
+				"code fodl",
+				"Code Folding: Unfold All"
+			],
+			[
+				"toggl",
+				"Toggle AutoSave: all files"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"TO",
+				"Toggle AutoSave: current file only"
+			],
+			[
+				"LOWER",
+				"Convert Case: Lower Case"
+			],
+			[
+				"auto",
+				"Toggle AutoSave: current file only"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"edit pro",
+				"Project: Edit Project"
+			],
+			[
+				"sync ",
+				"SFTP: Sync Both Directions…"
+			],
+			[
+				"sftp sync bo",
+				"SFTP: Sync Both Directions…"
+			],
+			[
+				"cancel",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"swift",
+				"Set Syntax: Swift"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"sort lin",
+				"Sort Lines"
+			],
+			[
+				"list",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mu",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"multimar",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"markd",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":s",
+				":w - Save"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"set syntax: mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"set syntax: c",
+				"Set Syntax: C"
+			],
+			[
+				":0",
+				":0 - BOF"
+			],
+			[
+				"open ",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"resou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package res",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package cont",
+				"Package Control: List Packages"
+			],
+			[
+				"set syntax: mip",
+				"Set Syntax: MIPS"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax: markdown",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdownediting",
+				"MarkdownEditing: New Image"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"packageli",
+				"Package Control: List Packages"
+			],
+			[
+				"batch",
+				"Set Syntax: Batch File"
+			],
+			[
+				"control install",
+				"Package Control: Install Package"
+			],
+			[
+				"packagecontrol insta",
+				"Package Control: Install Package"
+			],
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pakage instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Install Package Control"
+			],
+			[
+				"set syntax: bas",
+				"Set Syntax: Shell Script (Bash)"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/hyunkyu/Developer/LTI-Project/LTI-Project"
+	],
+	"file_history":
+	[
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/test/run_test.sh",
+		"/Users/hyunkyu/Desktop/Mathcup/foo.py",
+		"/Users/hyunkyu/Desktop/Mathcup/output.txt",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/Makefile",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/src/util.c",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/src/cnn.c",
+		"/Users/hyunkyu/Developer/LTI-Project/LTI-Project/GraphView.swift",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/MM.txt",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/answers.txt",
+		"/Users/hyunkyu/Developer/cs61c/sftp-config.json",
+		"/Users/hyunkyu/Developer/Test/test.txt",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/test/huge_test.sh",
+		"/Users/hyunkyu/Developer/Test/test.c",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/src/main.c",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/test/out/1.txt",
+		"/Users/hyunkyu/Developer/cs61c/cs61c.sublime-project",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/test/ref/10.txt",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/test/out/10.txt",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/test/compare_layers.py",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/test/ref/1.txt",
+		"/Users/hyunkyu/Developer/cs61c/labs/09/sum.c",
+		"/Users/hyunkyu/Developer/cs61c/labs/10/dotp.c",
+		"/Users/hyunkyu/Developer/cs61c/labs/10/v_add.c",
+		"/Users/hyunkyu/Developer/Test/Test.py",
+		"/Users/hyunkyu/Library/Application Support/Sublime Text 3/Packages/auto-save/README.md",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/README.md",
+		"/Users/hyunkyu/Developer/cs61c/proj4-akp/src/timestamp.c",
+		"/Users/hyunkyu/Developer/cs61c/labs/00/README",
+		"/Users/hyunkyu/Library/Application Support/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
+		"/Users/hyunkyu/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/Users/hyunkyu/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/hive18",
+		"/Users/hyunkyu/Developer/cs61c/proj1-akp/hashtable.c",
+		"/Users/hyunkyu/Developer/cs61c/proj1-akp/philspel.c",
+		"/Users/hyunkyu/Desktop/Test/test.py",
+		"/Users/hyunkyu/Developer/cs61c/labs/10/hello.c",
+		"/Users/hyunkyu/Developer/cs61c/labs/10/v_add",
+		"/Users/hyunkyu/Documents/Berkeley/Daily Cal/Stories/Publications/Publications_FC.md",
+		"/Users/hyunkyu/Desktop/test.txt",
+		"/Users/hyunkyu/Desktop/AddToOvercast/getURL.py",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/writeup.py",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/test.py",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/hw6-writeup.tex",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/DataProcessing.py",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/NeuralNetwork.py",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/Pickling.py",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/main.py",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/Makefile",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/hw6-writeup",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/hw6.tex",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/hw7.tex",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06-2/main.py",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/.git/info/exclude",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/ma",
+		"/Users/hyunkyu/Developer/LTI-Project/Podfile",
+		"/Users/hyunkyu/Developer/LTI-Project/LTI-Project/AppDelegate.swift",
+		"/Users/hyunkyu/Downloads/TwitterLBTA/TwitterLBTA/AppDelegate.swift",
+		"/Users/hyunkyu/Developer/Archive/Alpha/Alpha/main.swift",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw05/DecisionTrees.py",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/Philos 2/Paper3/README.md",
+		"/Users/hyunkyu/Movies/Videos/New/FileUtils.py",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/save.p",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw06/README.md",
+		"/Users/hyunkyu/Developer/cs61c/labs/09/sseTest.c",
+		"/Users/hyunkyu/Developer/cs61c/labs/09/sseTest.s",
+		"/Users/hyunkyu/Developer/cs61c/labs/09/sseTest.",
+		"/Users/hyunkyu/.oh-my-zsh/themes/master.zsh-theme",
+		"/Users/hyunkyu/Documents/Berkeley/Daily Cal/Science/Fact Checked 2.md",
+		"/Users/hyunkyu/Developer/getTitle.py",
+		"/Users/hyunkyu/Desktop/Test/Constants.py",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Midterm2/Midterm2.md",
+		"/Users/hyunkyu/Documents/Berkeley/Fall/CS70/Homework/hw7.tex",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Fall/CS70/Homework/hw7.tex",
+		"/Users/hyunkyu/Movies/Videos/New/Constants.py",
+		"/Users/hyunkyu/Movies/Videos/New/mai",
+		"/Users/hyunkyu/Developer/mdToPDF.py",
+		"/Users/hyunkyu/Desktop/Add to Overcast/geturl.bash",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Midterm2/CheatSheet2.tex",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/Midterm/CheatSheet.tex",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Midterm2/Makefile",
+		"/Users/hyunkyu/Desktop/Test/Shows.py",
+		"/Users/hyunkyu/Desktop/Test/FileUtils.py",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/Philos 2/Notes/Noes10.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/Philos 2/Notes/Notes9.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/2.",
+		"/Users/hyunkyu/Documents/Shows on Harddrive.txt",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/10. Floating_Point.md",
+		"/Users/hyunkyu/Library/Application Support/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/Users/hyunkyu/Library/Application Support/Sublime Text 3/Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
+		"/Users/hyunkyu/Library/Application Support/Sublime Text 3/Packages/Boxy Theme/Boxy Tomorrow.sublime-theme",
+		"/Users/hyunkyu/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/Users/hyunkyu/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
+		"/Users/hyunkyu/Desktop/cache",
+		"/Users/hyunkyu/Developer/Archive/Shows/tmdb.py",
+		"/Users/hyunkyu/Developer/Archive/Shows/TV_Show.py",
+		"/Users/hyunkyu/Developer/cs61c/labs/07/Makefile",
+		"/Users/hyunkyu/Developer/cs61c/labs/07/transpose.c",
+		"/Users/hyunkyu/Developer/cs61c/labs/07/matrixMultiply.c",
+		"/Users/hyunkyu/Developer/cs61c/labs/07/cache.s",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/09. Caches.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/08. Pipelining.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/07. Datapath.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/06. Timing_FunctionalUnits.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/05. Compiling_and_Assembling.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/04. MIPs.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/03. Memory.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/02. Pointers_and_Arrays.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/01. Numbers_and_C.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/The C Language (K & R).md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/11. Performance_Metrics.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/P & H Notes.md",
+		"/Users/hyunkyu/.zshrc",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/07. Datapath.",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Makefile",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/4. MIPs.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/3. Memory_and_MIPS.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Week2.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Week1.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Week9.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Week8.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Week7.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Week6.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Week5.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Week4.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Week3.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS61C/Notes/Week10.md",
+		"/Users/hyunkyu/Documents/Berkeley/Year_2/Spring/CS189/hw05/hw5_census_dist/readme.txt",
+		"/Users/hyunkyu/Developer/cs61c/proj3-akp/TEST_LOG_PIPELINED",
+		"/Users/hyunkyu/Documents/Shows on Internal Harddrive.txt"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 120.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"speedup",
+			" x",
+			"p>",
+			"%",
+			" >",
+			"p>",
+			"p",
+			"%",
+			"yAxis",
+			"f_depth",
+			"16",
+			"20",
+			"f_depth",
+			"v_depth",
+			"=",
+			"8*8",
+			"v_depth",
+			"b",
+			"a",
+			"0.565585\nf_sy 5\nf_sx 5\nV_sx 8\nV_sy 8\nax 4\nay 1\nd 0\n_y -1\n_x 2\nv_depth 20\nf_depth 20",
+			"0.565585\nf_sy 5\nf_sx 5\nV_sx 8\nV_sy 8\nax 3\nay 1\nd 0\n_y -1\n_x 1\nv_depth 20\nf_depth 20",
+			"0.565585\nf_sy 5\nf_sx 5\nV_sx 8\nV_sy 8\nax 2\nay 1\nd 0\n_y -1\n_x 0\nv_depth 20\nf_depth 20",
+			"0.565585\nf_sy 5\nf_sx 5\nV_sx 8\nV_sy 8\nax 1\nay 1\nd 0\n_y -1\n_x -1\nv_depth 20\nf_depth 20",
+			"0.565585\nf_sy 5\nf_sx 5\nV_sx 8\nV_sy 8\nax 0\nay 1\nd 0\n_y -1\n_x -2\nv_depth 20\nf_depth 20",
+			"0.565585\nf_sy 5\nf_sx 5\nV_sx 8\nV_sy 8\nax 7\nay 0\nd 0\n_y -2\n_x 5\nv_depth 20\nf_depth 20",
+			"0.565585\nf_sy 5\nf_sx 5\nV_sx 8\nV_sy 8\nax 6\nay 0\nd 0\n_y -2\n_x 4\nv_depth 20\nf_depth 20",
+			"0.565585\nf_sy 5\nf_sx 5\nV_sx 8\nV_sy 8\nax 5\nay 0\nd 0\n_y -2\n_x 3\nv_depth 20\nf_depth 20",
+			"0.565585\nf_sy 5\nf_sx 5\nV_sx 8\nV_sy 8\nax 4\nay 0\nd 0\n_y -2\n_x 2\nv_depth 20\nf_depth 20",
+			"0.565585\nf_sy 5\nf_sx 5\nV_sx 8\nV_sy 8\nax 3\nay 0\nd 0\n_y -2\n_x 1\nv_depth 20\nf_depth 20",
+			"0.565585\nf_sy 5\nf_sx 5\nV_sx 8\nV_sy 8\nax 2\nay 0\nd 0\n_y -2\n_x 0\nv_depth 20\nf_depth 20",
+			"fpritnf",
+			"int",
+			"0.000000\n0.000000\n0.161557\n0.167357\n0.167357\n0.167357\n0.167357\n0.249920\n0.249920\n0.249920\n0.249920\n0.249920\n0.249920\n0.305511\n0.284474\n0.241649\n0.241649\n0.253081\n0.253081\n0.253081\n0.232601\n0.232601\n0.232601\n0.174609\n0.106051\n0.106051\n0.106051\n0.117674\n0.117674\n0.117674\n0.218405\n0.218405\n0.218405\n0.218405\n0.195321\n0.195321\n0.195321\n0.195321\n0.195321\n0.195321\n0.195321\n0.135518\n0.135518\n-0.546775\n-0.546775\n-0.548590\n-0.548590\n-0.539134\n-0.539134\n-0.539134\n-0.450332\n-0.450332\n-0.505830\n-0.505830\n-0.542133\n-0.509028\n-0.058864\n-0.058864\n-0.027649\n0.255804",
+			"0.000000\n0.000000\n0.268363\n0.269783\n0.269783\n0.269783\n0.002785\n0.052816\n0.052816\n0.052816\n0.052816\n0.069937\n0.069937\n0.069937\n0.069937\n0.069937\n0.069937\n0.076023\n0.065136\n0.040305\n0.040305\n0.040305\n-0.089212\n-0.089212\n-0.131072\n-0.131072\n-0.131072\n-0.126526\n-0.079871\n-0.079871\n-0.079871\n-0.019578\n-0.019578\n-0.019578\n-0.045622\n-0.045622\n-0.045622\n-0.045622\n-0.088445\n-0.088445\n-0.088445\n-0.088445\n-0.358859\n-0.705233\n-0.705233\n-0.706553\n-0.706553\n-0.684250\n-0.684250\n-0.680482\n-0.680482\n-0.724817\n-0.724817\n-0.724817\n-0.753707\n-0.753707\n-0.541927\n-0.541927\n-0.448280\n-0.382173",
+			"0.000000\n0.000000\n0.234639\n0.234639\n0.234639\n0.234639\n-0.208871\n-0.196617\n-0.196617\n-0.196617\n-0.356435\n-0.346060\n-0.346060\n-0.346060\n-0.346060\n-0.404516\n-0.404516\n-0.404516\n-0.404516\n-0.404516\n-0.404516\n-0.404516\n-0.528277\n-0.528277\n-0.528277\n-0.528277\n-0.467572\n-0.467572\n-0.439085\n-0.439085\n-0.439085\n-0.415500\n-0.574248\n-0.574248\n-0.574248\n-0.580980\n-0.580980\n-0.580980\n-0.629294\n-0.629294\n-0.629294\n-0.629294\n-0.994990\n-1.043927\n-1.043927\n-1.043927\n-1.349063\n-1.337741\n-1.337741\n-1.335000\n-1.335000\n-1.439569\n-1.439569\n-1.434740\n-1.434740\n-1.383638\n-1.383638\n-1.383638\n-1.309113\n-1.309113",
+			"0.000000\n0.000000\n-0.387776\n-0.387776\n-0.387776\n-0.387776\n-0.653250\n-0.650709\n-0.650709\n-0.650709\n-0.720302\n-0.755724\n-0.755724\n-0.755724\n-0.755724\n-0.789618\n-0.789618\n-0.789618\n-0.731610\n-0.731610\n-0.731610\n-0.731610\n-0.563291\n-0.563291\n-0.660218\n-0.660218\n-0.660218\n-0.662851\n-0.573355\n-0.573355\n-0.573355\n-0.539910\n-0.539910\n-0.539910\n-0.952562\n-0.950962\n-0.950962\n-0.950962\n-0.844812\n-0.897897\n-0.897897\n-0.894386\n-0.894386\n-0.773855\n-0.773855\n-1.097250\n-1.097250\n-0.995206",
+			"======",
+			"a",
+			"v_depth, f_depth);",
+			", f_depth);",
+			");",
+			"f_depth",
+			"fprintf",
+			",",
+			"3",
+			",",
+			" ",
+			"fw",
+			" _x",
+			"foo",
+			"double* fw = f->w;\n          double* vw = V->w;",
+			"foo",
+			"int f_sy",
+			"V_sx",
+			"int V_sx",
+			"V_sx",
+			"//  fy",
+			"depth",
+			"f_depth",
+			"v_depth",
+			", d",
+			"ayd",
+			"f_sy",
+			"f_sx",
+			"f_depth",
+			"f_w 240 \t v_w 0\nf_w 260 \t v_w 20\nf_w 280 \t v_w 40\nf_w 340 \t v_w 160\nf_w 360 \t v_w 180\nf_w 380 \t v_w 200\nf_w 440 \t v_w 320\nf_w 460 \t v_w 340\nf_w 480 \t v_w 360",
+			"f_w 240 \t v_w 0\nf_w 260 \t v_w 20\nf_w 280 \t v_w 40\nf_w 340 \t v_w 160\nf_w 360 \t v_w 180\nf_w 380 \t v_w 200\nf_w 440 \t v_w 320\nf_w 460 \t v_w 340\nf_w 480 \t v_w 360\nf_w 220 \t v_w 0\nf_w 240 \t v_w 20\nf_w 260 \t v_w 40\nf_w 280 \t v_w 60\nf_w 320 \t v_w 160\nf_w 340 \t v_w 180\nf_w 360 \t v_w 200\nf_w 380 \t v_w 220\nf_w 420 \t v_w 320\nf_w 440 \t v_w 340\nf_w 460 \t v_w 360\nf_w 480 \t v_w 380\nf_w 200 \t v_w 0\nf_w 220 \t v_w 20\nf_w 240 \t v_w 40\nf_w 260 \t v_w 60\nf_w 280 \t v_w 80\nf_w 300 \t v_w 160\nf_w 320 \t v_w 180\nf_w 340 \t v_w 200\nf_w 360 \t v_w 220\nf_w 380 \t v_w 240\nf_w 400 \t v_w 320\nf_w 420 \t v_w 340\nf_w 440 \t v_w 360\nf_w 460 \t v_w 380\nf_w 480 \t v_w 400\nf_w 200 \t v_w 20\nf_w 220 \t v_w 40\nf_w 240 \t v_w 60\nf_w 260 \t v_w 80\nf_w 280 \t v_w 100\nf_w 300 \t v_w 180\nf_w 320 \t v_w 200\nf_w 340 \t v_w 220\nf_w 360 \t v_w 240\nf_w 380 \t v_w 260\nf_w 400 \t v_w 340\nf_w 420 \t v_w 360\nf_w 440 \t v_w 380\nf_w 460 \t v_w 400\nf_w 480 \t v_w 420\nf_w 200 \t v_w 40\nf_w 220 \t v_w 60\nf_w 240 \t v_w 80\nf_w 260 \t v_w 100\nf_w 280 \t v_w 120\nf_w 300 \t v_w 200\nf_w 320 \t v_w 220\nf_w 340 \t v_w 240\nf_w 360 \t v_w 260\nf_w 380 \t v_w 280\nf_w 400 \t v_w 360\nf_w 420 \t v_w 380\nf_w 440 \t v_w 400\nf_w 460 \t v_w 420\nf_w 480 \t v_w 440\nf_w 200 \t v_w 60\nf_w 220 \t v_w 80\nf_w 240 \t v_w 100\nf_w 260 \t v_w 120\nf_w 280 \t v_w 140\nf_w 300 \t v_w 220\nf_w 320 \t v_w 240\nf_w 340 \t v_w 260\nf_w 360 \t v_w 280\nf_w 380 \t v_w 300\nf_w 400 \t v_w 380\nf_w 420 \t v_w 400\nf_w 440 \t v_w 420\nf_w 460 \t v_w 440\nf_w 480 \t v_w 460\nf_w 200 \t v_w 80\nf_w 220 \t v_w 100\nf_w 240 \t v_w 120\nf_w 260 \t v_w 140\nf_w 300 \t v_w 240\nf_w 320 \t v_w 260\nf_w 340 \t v_w 280\nf_w 360 \t v_w 300\nf_w 400 \t v_w 400\nf_w 420 \t v_w 420\nf_w 440 \t v_w 440\nf_w 460 \t v_w 460\nf_w 200 \t v_w 100\nf_w 220 \t v_w 120\nf_w 240 \t v_w 140\nf_w 300 \t v_w 260\nf_w 320 \t v_w 280\nf_w 340 \t v_w 300\nf_w 400 \t v_w 420\nf_w 420 \t v_w 440\nf_w 440 \t v_w 460\nf_w 140 \t v_w 0\nf_w 160 \t v_w 20\nf_w 180 \t v_w 40\nf_w 240 \t v_w 160\nf_w 260 \t v_w 180\nf_w 280 \t v_w 200\nf_w 340 \t v_w 320\nf_w 360 \t v_w 340\nf_w 380 \t v_w 360\nf_w 440 \t v_w 480\nf_w 460 \t v_w 500\nf_w 480 \t v_w 520\nf_w 120 \t v_w 0\nf_w 140 \t v_w 20\nf_w 160 \t v_w 40\nf_w 180 \t v_w 60\nf_w 220 \t v_w 160\nf_w 240 \t v_w 180\nf_w 260 \t v_w 200\nf_w 280 \t v_w 220\nf_w 320 \t v_w 320\nf_w 340 \t v_w 340\nf_w 360 \t v_w 360\nf_w 380 \t v_w 380\nf_w 420 \t v_w 480\nf_w 440 \t v_w 500\nf_w 460 \t v_w 520\nf_w 480 \t v_w 540\nf_w 100 \t v_w 0\nf_w 120 \t v_w 20\nf_w 140 \t v_w 40\nf_w 160 \t v_w 60\nf_w 180 \t v_w 80\nf_w 200 \t v_w 160\nf_w 220 \t v_w 180\nf_w 240 \t v_w 200\nf_w 260 \t v_w 220\nf_w 280 \t v_w 240\nf_w 300 \t v_w 320\nf_w 320 \t v_w 340\nf_w 340 \t v_w 360\nf_w 360 \t v_w 380\nf_w 380 \t v_w 400\nf_w 400 \t v_w 480\nf_w 420 \t v_w 500\nf_w 440 \t v_w 520\nf_w 460 \t v_w 540\nf_w 480 \t v_w 560\nf_w 100 \t v_w 20\nf_w 120 \t v_w 40\nf_w 140 \t v_w 60\nf_w 160 \t v_w 80\nf_w 180 \t v_w 100\nf_w 200 \t v_w 180\nf_w 220 \t v_w 200\nf_w 240 \t v_w 220\nf_w 260 \t v_w 240\nf_w 280 \t v_w 260\nf_w 300 \t v_w 340\nf_w 320 \t v_w 360\nf_w 340 \t v_w 380\nf_w 360 \t v_w 400\nf_w 380 \t v_w 420\nf_w 400 \t v_w 500\nf_w 420 \t v_w 520\nf_w 440 \t v_w 540\nf_w 460 \t v_w 560\nf_w 480 \t v_w 580\nf_w 100 \t v_w 40\nf_w 120 \t v_w 60\nf_w 140 \t v_w 80\nf_w 160 \t v_w 100\nf_w 180 \t v_w 120\nf_w 200 \t v_w 200\nf_w 220 \t v_w 220\nf_w 240 \t v_w 240\nf_w 260 \t v_w 260\nf_w 280 \t v_w 280\nf_w 300 \t v_w 360\nf_w 320 \t v_w 380\nf_w 340 \t v_w 400\nf_w 360 \t v_w 420\nf_w 380 \t v_w 440\nf_w 400 \t v_w 520\nf_w 420 \t v_w 540\nf_w 440 \t v_w 560\nf_w 460 \t v_w 580\nf_w 480 \t v_w 600\nf_w 100 \t v_w 60\nf_w 120 \t v_w 80\nf_w 140 \t v_w 100\nf_w 160 \t v_w 120\nf_w 180 \t v_w 140\nf_w 200 \t v_w 220\nf_w 220 \t v_w 240\nf_w 240 \t v_w 260\nf_w 260 \t v_w 280\nf_w 280 \t v_w 300\nf_w 300 \t v_w 380\nf_w 320 \t v_w 400\nf_w 340 \t v_w 420\nf_w 360 \t v_w 440\nf_w 380 \t v_w 460\nf_w 400 \t v_w 540\nf_w 420 \t v_w 560\nf_w 440 \t v_w 580\nf_w 460 \t v_w 600\nf_w 480 \t v_w 620\nf_w 100 \t v_w 80\nf_w 120 \t v_w 100\nf_w 140 \t v_w 120\nf_w 160 \t v_w 140\nf_w 200 \t v_w 240\nf_w 220 \t v_w 260\nf_w 240 \t v_w 280\nf_w 260 \t v_w 300\nf_w 300 \t v_w 400\nf_w 320 \t v_w 420\nf_w 340 \t v_w 440\nf_w 360 \t v_w 460\nf_w 400 \t v_w 560\nf_w 420 \t v_w 580\nf_w 440 \t v_w 600\nf_w 460 \t v_w 620\nf_w 100 \t v_w 100\nf_w 120 \t v_w 120\nf_w 140 \t v_w 140\nf_w 200 \t v_w 260\nf_w 220 \t v_w 280\nf_w 240 \t v_w 300\nf_w 300 \t v_w 420\nf_w 320 \t v_w 440\nf_w 340 \t v_w 460\nf_w 400 \t v_w 580\nf_w 420 \t v_w 600\nf_w 440 \t v_w 620\nf_w 40 \t v_w 0\nf_w 60 \t v_w 20\nf_w 80 \t v_w 40\nf_w 140 \t v_w 160\nf_w 160 \t v_w 180\nf_w 180 \t v_w 200\nf_w 240 \t v_w 320\nf_w 260 \t v_w 340\nf_w 280 \t v_w 360\nf_w 340 \t v_w 480\nf_w 360 \t v_w 500\nf_w 380 \t v_w 520\nf_w 440 \t v_w 640\nf_w 460 \t v_w 660\nf_w 480 \t v_w 680\nf_w 20 \t v_w 0\nf_w 40 \t v_w 20\nf_w 60 \t v_w 40\nf_w 80 \t v_w 60\nf_w 120 \t v_w 160\nf_w 140 \t v_w 180\nf_w 160 \t v_w 200\nf_w 180 \t v_w 220\nf_w 220 \t v_w 320\nf_w 240 \t v_w 340\nf_w 260 \t v_w 360\nf_w 280 \t v_w 380\nf_w 320 \t v_w 480\nf_w 340 \t v_w 500\nf_w 360 \t v_w 520\nf_w 380 \t v_w 540\nf_w 420 \t v_w 640\nf_w 440 \t v_w 660\nf_w 460 \t v_w 680\nf_w 480 \t v_w 700\nf_w 0 \t v_w 0\nf_w 20 \t v_w 20\nf_w 40 \t v_w 40\nf_w 60 \t v_w 60\nf_w 80 \t v_w 80\nf_w 100 \t v_w 160\nf_w 120 \t v_w 180\nf_w 140 \t v_w 200\nf_w 160 \t v_w 220\nf_w 180 \t v_w 240\nf_w 200 \t v_w 320\nf_w 220 \t v_w 340\nf_w 240 \t v_w 360\nf_w 260 \t v_w 380\nf_w 280 \t v_w 400\nf_w 300 \t v_w 480\nf_w 320 \t v_w 500\nf_w 340 \t v_w 520\nf_w 360 \t v_w 540\nf_w 380 \t v_w 560\nf_w 400 \t v_w 640\nf_w 420 \t v_w 660\nf_w 440 \t v_w 680\nf_w 460 \t v_w 700\nf_w 480 \t v_w 720\nf_w 0 \t v_w 20\nf_w 20 \t v_w 40\nf_w 40 \t v_w 60\nf_w 60 \t v_w 80\nf_w 80 \t v_w 100\nf_w 100 \t v_w 180\nf_w 120 \t v_w 200\nf_w 140 \t v_w 220\nf_w 160 \t v_w 240\nf_w 180 \t v_w 260\nf_w 200 \t v_w 340\nf_w 220 \t v_w 360\nf_w 240 \t v_w 380\nf_w 260 \t v_w 400\nf_w 280 \t v_w 420\nf_w 300 \t v_w 500\nf_w 320 \t v_w 520\nf_w 340 \t v_w 540\nf_w 360 \t v_w 560\nf_w 380 \t v_w 580\nf_w 400 \t v_w 660\nf_w 420 \t v_w 680\nf_w 440 \t v_w 700\nf_w 460 \t v_w 720\nf_w 480 \t v_w 740\nf_w 0 \t v_w 40\nf_w 20 \t v_w 60\nf_w 40 \t v_w 80\nf_w 60 \t v_w 100\nf_w 80 \t v_w 120\nf_w 100 \t v_w 200\nf_w 120 \t v_w 220\nf_w 140 \t v_w 240\nf_w 160 \t v_w 260\nf_w 180 \t v_w 280\nf_w 200 \t v_w 360\nf_w 220 \t v_w 380\nf_w 240 \t v_w 400\nf_w 260 \t v_w 420\nf_w 280 \t v_w 440\nf_w 300 \t v_w 520\nf_w 320 \t v_w 540\nf_w 340 \t v_w 560\nf_w 360 \t v_w 580\nf_w 380 \t v_w 600\nf_w 400 \t v_w 680\nf_w 420 \t v_w 700\nf_w 440 \t v_w 720\nf_w 460 \t v_w 740\nf_w 480 \t v_w 760\nf_w 0 \t v_w 60\nf_w 20 \t v_w 80\nf_w 40 \t v_w 100\nf_w 60 \t v_w 120\nf_w 80 \t v_w 140\nf_w 100 \t v_w 220\nf_w 120 \t v_w 240\nf_w 140 \t v_w 260\nf_w 160 \t v_w 280\nf_w 180 \t v_w 300\nf_w 200 \t v_w 380\nf_w 220 \t v_w 400\nf_w 240 \t v_w 420\nf_w 260 \t v_w 440\nf_w 280 \t v_w 460\nf_w 300 \t v_w 540\nf_w 320 \t v_w 560\nf_w 340 \t v_w 580\nf_w 360 \t v_w 600\nf_w 380 \t v_w 620\nf_w 400 \t v_w 700\nf_w 420 \t v_w 720\nf_w 440 \t v_w 740\nf_w 460 \t v_w 760\nf_w 480 \t v_w 780\nf_w 0 \t v_w 80\nf_w 20 \t v_w 100\nf_w 40 \t v_w 120\nf_w 60 \t v_w 140\nf_w 100 \t v_w 240\nf_w 120 \t v_w 260\nf_w 140 \t v_w 280\nf_w 160 \t v_w 300\nf_w 200 \t v_w 400\nf_w 220 \t v_w 420\nf_w 240 \t v_w 440\nf_w 260 \t v_w 460\nf_w 300 \t v_w 560\nf_w 320 \t v_w 580\nf_w 340 \t v_w 600\nf_w 360 \t v_w 620\nf_w 400 \t v_w 720\nf_w 420 \t v_w 740\nf_w 440 \t v_w 760\nf_w 460 \t v_w 780\nf_w 0 \t v_w 100\nf_w 20 \t v_w 120\nf_w 40 \t v_w 140\nf_w 100 \t v_w 260\nf_w 120 \t v_w 280\nf_w 140 \t v_w 300\nf_w 200 \t v_w 420\nf_w 220 \t v_w 440\nf_w 240 \t v_w 460\nf_w 300 \t v_w 580\nf_w 320 \t v_w 600\nf_w 340 \t v_w 620\nf_w 400 \t v_w 740\nf_w 420 \t v_w 760\nf_w 440 \t v_w 780\nf_w 40 \t v_w 160\nf_w 60 \t v_w 180\nf_w 80 \t v_w 200\nf_w 140 \t v_w 320\nf_w 160 \t v_w 340\nf_w 180 \t v_w 360\nf_w 240 \t v_w 480\nf_w 260 \t v_w 500\nf_w 280 \t v_w 520\nf_w 340 \t v_w 640\nf_w 360 \t v_w 660\nf_w 380 \t v_w 680\nf_w 440 \t v_w 800\nf_w 460 \t v_w 820\nf_w 480 \t v_w 840\nf_w 20 \t v_w 160\nf_w 40 \t v_w 180\nf_w 60 \t v_w 200\nf_w 80 \t v_w 220\nf_w 120 \t v_w 320\nf_w 140 \t v_w 340\nf_w 160 \t v_w 360\nf_w 180 \t v_w 380\nf_w 220 \t v_w 480\nf_w 240 \t v_w 500\nf_w 260 \t v_w 520\nf_w 280 \t v_w 540\nf_w 320 \t v_w 640\nf_w 340 \t v_w 660\nf_w 360 \t v_w 680\nf_w 380 \t v_w 700\nf_w 420 \t v_w 800\nf_w 440 \t v_w 820\nf_w 460 \t v_w 840\nf_w 480 \t v_w 860\nf_w 0 \t v_w 160\nf_w 20 \t v_w 180\nf_w 40 \t v_w 200\nf_w 60 \t v_w 220\nf_w 80 \t v_w 240\nf_w 100 \t v_w 320\nf_w 120 \t v_w 340\nf_w 140 \t v_w 360\nf_w 160 \t v_w 380\nf_w 180 \t v_w 400\nf_w 200 \t v_w 480\nf_w 220 \t v_w 500\nf_w 240 \t v_w 520\nf_w 260 \t v_w 540\nf_w 280 \t v_w 560\nf_w 300 \t v_w 640\nf_w 320 \t v_w 660\nf_w 340 \t v_w 680\nf_w 360 \t v_w 700\nf_w 380 \t v_w 720\nf_w 400 \t v_w 800\nf_w 420 \t v_w 820\nf_w 440 \t v_w 840\nf_w 460 \t v_w 860\nf_w 480 \t v_w 880\nf_w 0 \t v_w 180\nf_w 20 \t v_w 200\nf_w 40 \t v_w 220\nf_w 60 \t v_w 240\nf_w 80 \t v_w 260\nf_w 100 \t v_w 340\nf_w 120 \t v_w 360\nf_w 140 \t v_w 380\nf_w 160 \t v_w 400\nf_w 180 \t v_w 420\nf_w 200 \t v_w 500\nf_w 220 \t v_w 520\nf_w 240 \t v_w 540\nf_w 260 \t v_w 560\nf_w 280 \t v_w 580\nf_w 300 \t v_w 660\nf_w 320 \t v_w 680\nf_w 340 \t v_w 700\nf_w 360 \t v_w 720\nf_w 380 \t v_w 740\nf_w 400 \t v_w 820\nf_w 420 \t v_w 840\nf_w 440 \t v_w 860\nf_w 460 \t v_w 880\nf_w 480 \t v_w 900\nf_w 0 \t v_w 200\nf_w 20 \t v_w 220\nf_w 40 \t v_w 240\nf_w 60 \t v_w 260\nf_w 80 \t v_w 280\nf_w 100 \t v_w 360\nf_w 120 \t v_w 380\nf_w 140 \t v_w 400\nf_w 160 \t v_w 420\nf_w 180 \t v_w 440\nf_w 200 \t v_w 520\nf_w 220 \t v_w 540\nf_w 240 \t v_w 560\nf_w 260 \t v_w 580\nf_w 280 \t v_w 600\nf_w 300 \t v_w 680\nf_w 320 \t v_w 700\nf_w 340 \t v_w 720\nf_w 360 \t v_w 740\nf_w 380 \t v_w 760\nf_w 400 \t v_w 840\nf_w 420 \t v_w 860\nf_w 440 \t v_w 880\nf_w 460 \t v_w 900\nf_w 480 \t v_w 920\nf_w 0 \t v_w 220\nf_w 20 \t v_w 240\nf_w 40 \t v_w 260\nf_w 60 \t v_w 280\nf_w 80 \t v_w 300\nf_w 100 \t v_w 380\nf_w 120 \t v_w 400\nf_w 140 \t v_w 420\nf_w 160 \t v_w 440\nf_w 180 \t v_w 460\nf_w 200 \t v_w 540\nf_w 220 \t v_w 560\nf_w 240 \t v_w 580\nf_w 260 \t v_w 600\nf_w 280 \t v_w 620\nf_w 300 \t v_w 700\nf_w 320 \t v_w 720\nf_w 340 \t v_w 740\nf_w 360 \t v_w 760\nf_w 380 \t v_w 780\nf_w 400 \t v_w 860\nf_w 420 \t v_w 880\nf_w 440 \t v_w 900\nf_w 460 \t v_w 920\nf_w 480 \t v_w 940\nf_w 0 \t v_w 240\nf_w 20 \t v_w 260\nf_w 40 \t v_w 280\nf_w 60 \t v_w 300\nf_w 100 \t v_w 400\nf_w 120 \t v_w 420\nf_w 140 \t v_w 440\nf_w 160 \t v_w 460\nf_w 200 \t v_w 560\nf_w 220 \t v_w 580\nf_w 240 \t v_w 600\nf_w 260 \t v_w 620\nf_w 300 \t v_w 720\nf_w 320 \t v_w 740\nf_w 340 \t v_w 760\nf_w 360 \t v_w 780\nf_w 400 \t v_w 880\nf_w 420 \t v_w 900\nf_w 440 \t v_w 920\nf_w 460 \t v_w 940\nf_w 0 \t v_w 260\nf_w 20 \t v_w 280\nf_w 40 \t v_w 300\nf_w 100 \t v_w 420\nf_w 120 \t v_w 440\nf_w 140 \t v_w 460\nf_w 200 \t v_w 580\nf_w 220 \t v_w 600\nf_w 240 \t v_w 620\nf_w 300 \t v_w 740\nf_w 320 \t v_w 760\nf_w 340 \t v_w 780\nf_w 400 \t v_w 900\nf_w 420 \t v_w 920\nf_w 440 \t v_w 940\nf_w 40 \t v_w 320\nf_w 60 \t v_w 340\nf_w 80 \t v_w 360\nf_w 140 \t v_w 480\nf_w 160 \t v_w 500\nf_w 180 \t v_w 520\nf_w 240 \t v_w 640\nf_w 260 \t v_w 660\nf_w 280 \t v_w 680\nf_w 340 \t v_w 800\nf_w 360 \t v_w 820\nf_w 380 \t v_w 840\nf_w 440 \t v_w 960\nf_w 460 \t v_w 980\nf_w 480 \t v_w 1000\nf_w 20 \t v_w 320\nf_w 40 \t v_w 340\nf_w 60 \t v_w 360\nf_w 80 \t v_w 380\nf_w 120 \t v_w 480\nf_w 140 \t v_w 500\nf_w 160 \t v_w 520\nf_w 180 \t v_w 540\nf_w 220 \t v_w 640\nf_w 240 \t v_w 660\nf_w 260 \t v_w 680\nf_w 280 \t v_w 700\nf_w 320 \t v_w 800\nf_w 340 \t v_w 820\nf_w 360 \t v_w 840\nf_w 380 \t v_w 860\nf_w 420 \t v_w 960\nf_w 440 \t v_w 980\nf_w 460 \t v_w 1000\nf_w 480 \t v_w 1020\nf_w 0 \t v_w 320\nf_w 20 \t v_w 340\nf_w 40 \t v_w 360\nf_w 60 \t v_w 380\nf_w 80 \t v_w 400\nf_w 100 \t v_w 480\nf_w 120 \t v_w 500\nf_w 140 \t v_w 520\nf_w 160 \t v_w 540\nf_w 180 \t v_w 560\nf_w 200 \t v_w 640\nf_w 220 \t v_w 660\nf_w 240 \t v_w 680\nf_w 260 \t v_w 700\nf_w 280 \t v_w 720\nf_w 300 \t v_w 800\nf_w 320 \t v_w 820\nf_w 340 \t v_w 840\nf_w 360 \t v_w 860\nf_w 380 \t v_w 880\nf_w 400 \t v_w 960\nf_w 420 \t v_w 980\nf_w 440 \t v_w 1000\nf_w 460 \t v_w 1020\nf_w 480 \t v_w 1040\nf_w 0 \t v_w 340\nf_w 20 \t v_w 360\nf_w 40 \t v_w 380\nf_w 60 \t v_w 400\nf_w 80 \t v_w 420\nf_w 100 \t v_w 500\nf_w 120 \t v_w 520\nf_w 140 \t v_w 540\nf_w 160 \t v_w 560\nf_w 180 \t v_w 580\nf_w 200 \t v_w 660\nf_w 220 \t v_w 680\nf_w 240 \t v_w 700\nf_w 260 \t v_w 720\nf_w 280 \t v_w 740\nf_w 300 \t v_w 820\nf_w 320 \t v_w 840\nf_w 340 \t v_w 860\nf_w 360 \t v_w 880\nf_w 380 \t v_w 900\nf_w 400 \t v_w 980\nf_w 420 \t v_w 1000\nf_w 440 \t v_w 1020\nf_w 460 \t v_w 1040\nf_w 480 \t v_w 1060\nf_w 0 \t v_w 360\nf_w 20 \t v_w 380\nf_w 40 \t v_w 400\nf_w 60 \t v_w 420\nf_w 80 \t v_w 440\nf_w 100 \t v_w 520\nf_w 120 \t v_w 540\nf_w 140 \t v_w 560\nf_w 160 \t v_w 580\nf_w 180 \t v_w 600\nf_w 200 \t v_w 680\nf_w 220 \t v_w 700\nf_w 240 \t v_w 720\nf_w 260 \t v_w 740\nf_w 280 \t v_w 760\nf_w 300 \t v_w 840\nf_w 320 \t v_w 860\nf_w 340 \t v_w 880\nf_w 360 \t v_w 900\nf_w 380 \t v_w 920\nf_w 400 \t v_w 1000\nf_w 420 \t v_w 1020\nf_w 440 \t v_w 1040\nf_w 460 \t v_w 1060\nf_w 480 \t v_w 1080\nf_w 0 \t v_w 380\nf_w 20 \t v_w 400\nf_w 40 \t v_w 420\nf_w 60 \t v_w 440\nf_w 80 \t v_w 460\nf_w 100 \t v_w 540\nf_w 120 \t v_w 560\nf_w 140 \t v_w 580\nf_w 160 \t v_w 600\nf_w 180 \t v_w 620\nf_w 200 \t v_w 700\nf_w 220 \t v_w 720\nf_w 240 \t v_w 740\nf_w 260 \t v_w 760\nf_w 280 \t v_w 780\nf_w 300 \t v_w 860\nf_w 320 \t v_w 880\nf_w 340 \t v_w 900\nf_w 360 \t v_w 920\nf_w 380 \t v_w 940\nf_w 400 \t v_w 1020\nf_w 420 \t v_w 1040\nf_w 440 \t v_w 1060\nf_w 460 \t v_w 1080\nf_w 480 \t v_w 1100\nf_w 0 \t v_w 400\nf_w 20 \t v_w 420\nf_w 40 \t v_w 440\nf_w 60 \t v_w 460\nf_w 100 \t v_w 560\nf_w 120 \t v_w 580\nf_w 140 \t v_w 600\nf_w 160 \t v_w 620\nf_w 200 \t v_w 720\nf_w 220 \t v_w 740\nf_w 240 \t v_w 760\nf_w 260 \t v_w 780\nf_w 300 \t v_w 880\nf_w 320 \t v_w 900\nf_w 340 \t v_w 920\nf_w 360 \t v_w 940\nf_w 400 \t v_w 1040\nf_w 420 \t v_w 1060\nf_w 440 \t v_w 1080\nf_w 460 \t v_w 1100\nf_w 0 \t v_w 420\nf_w 20 \t v_w 440\nf_w 40 \t v_w 460\nf_w 100 \t v_w 580\nf_w 120 \t v_w 600\nf_w 140 \t v_w 620\nf_w 200 \t v_w 740\nf_w 220 \t v_w 760\nf_w 240 \t v_w 780\nf_w 300 \t v_w 900\nf_w 320 \t v_w 920\nf_w 340 \t v_w 940\nf_w 400 \t v_w 1060\nf_w 420 \t v_w 1080\nf_w 440 \t v_w 1100\nf_w 40 \t v_w 480\nf_w 60 \t v_w 500\nf_w 80 \t v_w 520\nf_w 140 \t v_w 640\nf_w 160 \t v_w 660\nf_w 180 \t v_w 680\nf_w 240 \t v_w 800\nf_w 260 \t v_w 820\nf_w 280 \t v_w 840\nf_w 340 \t v_w 960\nf_w 360 \t v_w 980\nf_w 380 \t v_w 1000\nf_w 440 \t v_w 1120\nf_w 460 \t v_w 1140\nf_w 480 \t v_w 1160\nf_w 20 \t v_w 480\nf_w 40 \t v_w 500\nf_w 60 \t v_w 520\nf_w 80 \t v_w 540\nf_w 120 \t v_w 640\nf_w 140 \t v_w 660\nf_w 160 \t v_w 680\nf_w 180 \t v_w 700\nf_w 220 \t v_w 800\nf_w 240 \t v_w 820\nf_w 260 \t v_w 840\nf_w 280 \t v_w 860\nf_w 320 \t v_w 960\nf_w 340 \t v_w 980\nf_w 360 \t v_w 1000\nf_w 380 \t v_w 1020\nf_w 420 \t v_w 1120\nf_w 440 \t v_w 1140\nf_w 460 \t v_w 1160\nf_w 480 \t v_w 1180\nf_w 0 \t v_w 480\nf_w 20 \t v_w 500\nf_w 40 \t v_w 520\nf_w 60 \t v_w 540\nf_w 80 \t v_w 560\nf_w 100 \t v_w 640\nf_w 120 \t v_w 660\nf_w 140 \t v_w 680\nf_w 160 \t v_w 700\nf_w 180 \t v_w 720\nf_w 200 \t v_w 800\nf_w 220 \t v_w 820\nf_w 240 \t v_w 840\nf_w 260 \t v_w 860\nf_w 280 \t v_w 880\nf_w 300 \t v_w 960\nf_w 320 \t v_w 980\nf_w 340 \t v_w 1000\nf_w 360 \t v_w 1020\nf_w 380 \t v_w 1040\nf_w 400 \t v_w 1120\nf_w 420 \t v_w 1140\nf_w 440 \t v_w 1160\nf_w 460 \t v_w 1180\nf_w 480 \t v_w 1200\nf_w 0 \t v_w 500\nf_w 20 \t v_w 520\nf_w 40 \t v_w 540\nf_w 60 \t v_w 560\nf_w 80 \t v_w 580\nf_w 100 \t v_w 660\nf_w 120 \t v_w 680\nf_w 140 \t v_w 700\nf_w 160 \t v_w 720\nf_w 180 \t v_w 740\nf_w 200 \t v_w 820\nf_w 220 \t v_w 840\nf_w 240 \t v_w 860\nf_w 260 \t v_w 880\nf_w 280 \t v_w 900\nf_w 300 \t v_w 980\nf_w 320 \t v_w 1000\nf_w 340 \t v_w 1020\nf_w 360 \t v_w 1040\nf_w 380 \t v_w 1060\nf_w 400 \t v_w 1140\nf_w 420 \t v_w 1160\nf_w 440 \t v_w 1180\nf_w 460 \t v_w 1200\nf_w 480 \t v_w 1220\nf_w 0 \t v_w 520\nf_w 20 \t v_w 540\nf_w 40 \t v_w 560\nf_w 60 \t v_w 580\nf_w 80 \t v_w 600\nf_w 100 \t v_w 680\nf_w 120 \t v_w 700\nf_w 140 \t v_w 720\nf_w 160 \t v_w 740\nf_w 180 \t v_w 760\nf_w 200 \t v_w 840\nf_w 220 \t v_w 860\nf_w 240 \t v_w 880\nf_w 260 \t v_w 900\nf_w 280 \t v_w 920\nf_w 300 \t v_w 1000\nf_w 320 \t v_w 1020\nf_w 340 \t v_w 1040\nf_w 360 \t v_w 1060\nf_w 380 \t v_w 1080\nf_w 400 \t v_w 1160\nf_w 420 \t v_w 1180\nf_w 440 \t v_w 1200\nf_w 460 \t v_w 1220\nf_w 480 \t v_w 1240\nf_w 0 \t v_w 540\nf_w 20 \t v_w 560\nf_w 40 \t v_w 580\nf_w 60 \t v_w 600\nf_w 80 \t v_w 620\nf_w 100 \t v_w 700\nf_w 120 \t v_w 720\nf_w 140 \t v_w 740\nf_w 160 \t v_w 760\nf_w 180 \t v_w 780\nf_w 200 \t v_w 860\nf_w 220 \t v_w 880\nf_w 240 \t v_w 900\nf_w 260 \t v_w 920\nf_w 280 \t v_w 940\nf_w 300 \t v_w 1020\nf_w 320 \t v_w 1040\nf_w 340 \t v_w 1060\nf_w 360 \t v_w 1080\nf_w 380 \t v_w 1100\nf_w 400 \t v_w 1180\nf_w 420 \t v_w 1200\nf_w 440 \t v_w 1220\nf_w 460 \t v_w 1240\nf_w 480 \t v_w 1260\nf_w 0 \t v_w 560\nf_w 20 \t v_w 580\nf_w 40 \t v_w 600\nf_w 60 \t v_w 620\nf_w 100 \t v_w 720\nf_w 120 \t v_w 740\nf_w 140 \t v_w 760\nf_w 160 \t v_w 780\nf_w 200 \t v_w 880\nf_w 220 \t v_w 900\nf_w 240 \t v_w 920\nf_w 260 \t v_w 940\nf_w 300 \t v_w 1040\nf_w 320 \t v_w 1060\nf_w 340 \t v_w 1080\nf_w 360 \t v_w 1100\nf_w 400 \t v_w 1200\nf_w 420 \t v_w 1220\nf_w 440 \t v_w 1240\nf_w 460 \t v_w 1260\nf_w 0 \t v_w 580\nf_w 20 \t v_w 600\nf_w 40 \t v_w 620\nf_w 100 \t v_w 740\nf_w 120 \t v_w 760\nf_w 140 \t v_w 780\nf_w 200 \t v_w 900\nf_w 220 \t v_w 920\nf_w 240 \t v_w 940\nf_w 300 \t v_w 1060\nf_w 320 \t v_w 1080\nf_w 340 \t v_w 1100\nf_w 400 \t v_w 1220\nf_w 420 \t v_w 1240\nf_w 440 \t v_w 1260\nf_w 40 \t v_w 640\nf_w 60 \t v_w 660\nf_w 80 \t v_w 680\nf_w 140 \t v_w 800\nf_w 160 \t v_w 820\nf_w 180 \t v_w 840\nf_w 240 \t v_w 960\nf_w 260 \t v_w 980\nf_w 280 \t v_w 1000\nf_w 340 \t v_w 1120\nf_w 360 \t v_w 1140\nf_w 380 \t v_w 1160\nf_w 20 \t v_w 640\nf_w 40 \t v_w 660\nf_w 60 \t v_w 680\nf_w 80 \t v_w 700\nf_w 120 \t v_w 800\nf_w 140 \t v_w 820\nf_w 160 \t v_w 840\nf_w 180 \t v_w 860\nf_w 220 \t v_w 960\nf_w 240 \t v_w 980\nf_w 260 \t v_w 1000\nf_w 280 \t v_w 1020\nf_w 320 \t v_w 1120\nf_w 340 \t v_w 1140\nf_w 360 \t v_w 1160\nf_w 380 \t v_w 1180\nf_w 0 \t v_w 640\nf_w 20 \t v_w 660\nf_w 40 \t v_w 680\nf_w 60 \t v_w 700\nf_w 80 \t v_w 720\nf_w 100 \t v_w 800\nf_w 120 \t v_w 820\nf_w 140 \t v_w 840\nf_w 160 \t v_w 860\nf_w 180 \t v_w 880\nf_w 200 \t v_w 960\nf_w 220 \t v_w 980\nf_w 240 \t v_w 1000\nf_w 260 \t v_w 1020\nf_w 280 \t v_w 1040\nf_w 300 \t v_w 1120\nf_w 320 \t v_w 1140\nf_w 340 \t v_w 1160\nf_w 360 \t v_w 1180\nf_w 380 \t v_w 1200\nf_w 0 \t v_w 660\nf_w 20 \t v_w 680\nf_w 40 \t v_w 700\nf_w 60 \t v_w 720\nf_w 80 \t v_w 740\nf_w 100 \t v_w 820\nf_w 120 \t v_w 840\nf_w 140 \t v_w 860\nf_w 160 \t v_w 880\nf_w 180 \t v_w 900\nf_w 200 \t v_w 980\nf_w 220 \t v_w 1000\nf_w 240 \t v_w 1020\nf_w 260 \t v_w 1040\nf_w 280 \t v_w 1060\nf_w 300 \t v_w 1140\nf_w 320 \t v_w 1160\nf_w 340 \t v_w 1180\nf_w 360 \t v_w 1200\nf_w 380 \t v_w 1220\nf_w 0 \t v_w 680\nf_w 20 \t v_w 700\nf_w 40 \t v_w 720\nf_w 60 \t v_w 740\nf_w 80 \t v_w 760\nf_w 100 \t v_w 840\nf_w 120 \t v_w 860\nf_w 140 \t v_w 880\nf_w 160 \t v_w 900\nf_w 180 \t v_w 920\nf_w 200 \t v_w 1000\nf_w 220 \t v_w 1020\nf_w 240 \t v_w 1040\nf_w 260 \t v_w 1060\nf_w 280 \t v_w 1080\nf_w 300 \t v_w 1160\nf_w 320 \t v_w 1180\nf_w 340 \t v_w 1200\nf_w 360 \t v_w 1220\nf_w 380 \t v_w 1240\nf_w 0 \t v_w 700\nf_w 20 \t v_w 720\nf_w 40 \t v_w 740\nf_w 60 \t v_w 760\nf_w 80 \t v_w 780\nf_w 100 \t v_w 860\nf_w 120 \t v_w 880\nf_w 140 \t v_w 900\nf_w 160 \t v_w 920\nf_w 180 \t v_w 940\nf_w 200 \t v_w 1020\nf_w 220 \t v_w 1040\nf_w 240 \t v_w 1060\nf_w 260 \t v_w 1080\nf_w 280 \t v_w 1100\nf_w 300 \t v_w 1180\nf_w 320 \t v_w 1200\nf_w 340 \t v_w 1220\nf_w 360 \t v_w 1240\nf_w 380 \t v_w 1260\nf_w 0 \t v_w 720\nf_w 20 \t v_w 740\nf_w 40 \t v_w 760\nf_w 60 \t v_w 780\nf_w 100 \t v_w 880\nf_w 120 \t v_w 900\nf_w 140 \t v_w 920\nf_w 160 \t v_w 940\nf_w 200 \t v_w 1040\nf_w 220 \t v_w 1060\nf_w 240 \t v_w 1080\nf_w 260 \t v_w 1100\nf_w 300 \t v_w 1200\nf_w 320 \t v_w 1220\nf_w 340 \t v_w 1240\nf_w 360 \t v_w 1260\nf_w 0 \t v_w 740\nf_w 20 \t v_w 760\nf_w 40 \t v_w 780\nf_w 100 \t v_w 900\nf_w 120 \t v_w 920\nf_w 140 \t v_w 940\nf_w 200 \t v_w 1060\nf_w 220 \t v_w 1080\nf_w 240 \t v_w 1100\nf_w 300 \t v_w 1220\nf_w 320 \t v_w 1240\nf_w 340 \t v_w 1260\nf_w 40 \t v_w 800\nf_w 60 \t v_w 820\nf_w 80 \t v_w 840\nf_w 140 \t v_w 960\nf_w 160 \t v_w 980\nf_w 180 \t v_w 1000\nf_w 240 \t v_w 1120\nf_w 260 \t v_w 1140\nf_w 280 \t v_w 1160\nf_w 20 \t v_w 800\nf_w 40 \t v_w 820\nf_w 60 \t v_w 840\nf_w 80 \t v_w 860\nf_w 120 \t v_w 960\nf_w 140 \t v_w 980\nf_w 160 \t v_w 1000\nf_w 180 \t v_w 1020\nf_w 220 \t v_w 1120\nf_w 240 \t v_w 1140\nf_w 260 \t v_w 1160\nf_w 280 \t v_w 1180\nf_w 0 \t v_w 800\nf_w 20 \t v_w 820\nf_w 40 \t v_w 840\nf_w 60 \t v_w 860\nf_w 80 \t v_w 880\nf_w 100 \t v_w 960\nf_w 120 \t v_w 980\nf_w 140 \t v_w 1000\nf_w 160 \t v_w 1020\nf_w 180 \t v_w 1040\nf_w 200 \t v_w 1120\nf_w 220 \t v_w 1140\nf_w 240 \t v_w 1160\nf_w 260 \t v_w 1180\nf_w 280 \t v_w 1200\nf_w 0 \t v_w 820\nf_w 20 \t v_w 840\nf_w 40 \t v_w 860\nf_w 60 \t v_w 880\nf_w 80 \t v_w 900\nf_w 100 \t v_w 980\nf_w 120 \t v_w 1000\nf_w 140 \t v_w 1020\nf_w 160 \t v_w 1040\nf_w 180 \t v_w 1060\nf_w 200 \t v_w 1140\nf_w 220 \t v_w 1160\nf_w 240 \t v_w 1180\nf_w 260 \t v_w 1200\nf_w 280 \t v_w 1220\nf_w 0 \t v_w 840\nf_w 20 \t v_w 860\nf_w 40 \t v_w 880\nf_w 60 \t v_w 900\nf_w 80 \t v_w 920\nf_w 100 \t v_w 1000\nf_w 120 \t v_w 1020\nf_w 140 \t v_w 1040\nf_w 160 \t v_w 1060\nf_w 180 \t v_w 1080\nf_w 200 \t v_w 1160\nf_w 220 \t v_w 1180\nf_w 240 \t v_w 1200\nf_w 260 \t v_w 1220\nf_w 280 \t v_w 1240\nf_w 0 \t v_w 860\nf_w 20 \t v_w 880\nf_w 40 \t v_w 900\nf_w 60 \t v_w 920\nf_w 80 \t v_w 940\nf_w 100 \t v_w 1020\nf_w 120 \t v_w 1040\nf_w 140 \t v_w 1060\nf_w 160 \t v_w 1080\nf_w 180 \t v_w 1100\nf_w 200 \t v_w 1180\nf_w 220 \t v_w 1200\nf_w 240 \t v_w 1220\nf_w 260 \t v_w 1240\nf_w 280 \t v_w 1260\nf_w 0 \t v_w 880\nf_w 20 \t v_w 900\nf_w 40 \t v_w 920\nf_w 60 \t v_w 940\nf_w 100 \t v_w 1040\nf_w 120 \t v_w 1060\nf_w 140 \t v_w 1080\nf_w 160 \t v_w 1100\nf_w 200 \t v_w 1200\nf_w 220 \t v_w 1220\nf_w 240 \t v_w 1240\nf_w 260 \t v_w 1260\nf_w 0 \t v_w 900\nf_w 20 \t v_w 920\nf_w 40 \t v_w 940\nf_w 100 \t v_w 1060\nf_w 120 \t v_w 1080\nf_w 140 \t v_w 1100\nf_w 200 \t v_w 1220\nf_w 220 \t v_w 1240\nf_w 240 \t v_w 1260",
+			"=====",
+			"1111111",
+			"f_w 240 \t v_w 0\nf_w 260 \t v_w 20\nf_w 280 \t v_w 40\nf_w 340 \t v_w 160\nf_w 360 \t v_w 180\nf_w 380 \t v_w 200\nf_w 440 \t v_w 320\nf_w 460 \t v_w 340\nf_w 480 \t v_w 360\nf_w 220 \t v_w 0\nf_w 240 \t v_w 20\nf_w 260 \t v_w 40\nf_w 280 \t v_w 60\nf_w 320 \t v_w 160\nf_w 340 \t v_w 180\nf_w 360 \t v_w 200\nf_w 380 \t v_w 220\nf_w 420 \t v_w 320\nf_w 440 \t v_w 340\nf_w 460 \t v_w 360\nf_w 480 \t v_w 380\nf_w 200 \t v_w 0\nf_w 220 \t v_w 20\nf_w 240 \t v_w 40\nf_w 260 \t v_w 60\nf_w 280 \t v_w 80\nf_w 300 \t v_w 160\nf_w 320 \t v_w 180\nf_w 340 \t v_w 200\nf_w 360 \t v_w 220\nf_w 380 \t v_w 240\nf_w 400 \t v_w 320\nf_w 420 \t v_w 340\nf_w 440 \t v_w 360\nf_w 460 \t v_w 380\nf_w 480 \t v_w 400\nf_w 200 \t v_w 20\nf_w 220 \t v_w 40\nf_w 240 \t v_w 60\nf_w 260 \t v_w 80\nf_w 280 \t v_w 100\nf_w 300 \t v_w 180\nf_w 320 \t v_w 200\nf_w 340 \t v_w 220\nf_w 360 \t v_w 240\nf_w 380 \t v_w 260\nf_w 400 \t v_w 340\nf_w 420 \t v_w 360\nf_w 440 \t v_w 380\nf_w 460 \t v_w 400\nf_w 480 \t v_w 420\nf_w 200 \t v_w 40\nf_w 220 \t v_w 60\nf_w 240 \t v_w 80\nf_w 260 \t v_w 100\nf_w 280 \t v_w 120\nf_w 300 \t v_w 200\nf_w 320 \t v_w 220\nf_w 340 \t v_w 240\nf_w 360 \t v_w 260\nf_w 380 \t v_w 280\nf_w 400 \t v_w 360\nf_w 420 \t v_w 380\nf_w 440 \t v_w 400\nf_w 460 \t v_w 420\nf_w 480 \t v_w 440\nf_w 200 \t v_w 60\nf_w 220 \t v_w 80\nf_w 240 \t v_w 100\nf_w 260 \t v_w 120\nf_w 280 \t v_w 140\nf_w 300 \t v_w 220\nf_w 320 \t v_w 240\nf_w 340 \t v_w 260\nf_w 360 \t v_w 280\nf_w 380 \t v_w 300\nf_w 400 \t v_w 380\nf_w 420 \t v_w 400\nf_w 440 \t v_w 420\nf_w 460 \t v_w 440\nf_w 480 \t v_w 460\nf_w 200 \t v_w 80\nf_w 220 \t v_w 100\nf_w 240 \t v_w 120\nf_w 260 \t v_w 140\nf_w 300 \t v_w 240\nf_w 320 \t v_w 260\nf_w 340 \t v_w 280\nf_w 360 \t v_w 300\nf_w 400 \t v_w 400\nf_w 420 \t v_w 420\nf_w 440 \t v_w 440\nf_w 460 \t v_w 460\nf_w 200 \t v_w 100\nf_w 220 \t v_w 120\nf_w 240 \t v_w 140\nf_w 300 \t v_w 260\nf_w 320 \t v_w 280\nf_w 340 \t v_w 300\nf_w 400 \t v_w 420\nf_w 420 \t v_w 440\nf_w 440 \t v_w 460",
+			"f_w 240 \t v_w 0",
+			"f_w 40 \t v_w 0",
+			"f_w 40 \t v_w 160",
+			"=====",
+			"malloc",
+			"A",
+			"sum",
+			"conv1",
+			"fprintf(",
+			"240",
+			",",
+			"line",
+			"_sum",
+			"sum",
+			"fc_load",
+			"load_cnn",
+			"layer4",
+			"cat_la",
+			"cat_l\t",
+			"sum",
+			"0.17098",
+			"0.170980",
+			"Layer4",
+			"1.24299",
+			"Layer4",
+			"Layer5",
+			"Layer3",
+			"1.443096",
+			"layer4",
+			"layer 4",
+			"printf",
+			"dump_vol",
+			".txt",
+			"indata",
+			".split(",
+			"a note",
+			"selection",
+			"  }",
+			"store",
+			"dot",
+			"fprintf",
+			"fprint",
+			"fprintf",
+			"RUNNING TEST",
+			"RUNNING",
+			"free",
+			"_mm256_fmadd_pd",
+			"if (currThread == 0) {\n  \n      }",
+			"fprintf",
+			"fprintf(stderr, \"%d\\n\", currThread);",
+			"\\t",
+			"worked",
+			"=",
+			"frpintf",
+			"\")",
+			"net_classify",
+			"running",
+			"run_cla"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"%sss",
+			"\\n$&",
+			"$&\\n",
+			"$& $n",
+			""
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "AppDelegate.swift",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Swift/Syntaxes/Swift.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "GraphBrain.swift",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Swift/Syntaxes/Swift.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "GraphView.swift",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Swift/Syntaxes/Swift.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ViewController.swift",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								754,
+								754
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										734,
+										735
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Swift/Syntaxes/Swift.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "LTI_Project.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 91,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										35,
+										36
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										32,
+										33
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 29.0
+	},
+	"output.sftp":
+	{
+		"height": 456.0
+	},
+	"pinned_build_system": "",
+	"project": "LTI_Project.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mm.",
+				"proj4-akp/MM.txt"
+			],
+			[
+				".sh",
+				"proj4-akp/test/run_test.sh"
+			],
+			[
+				"mm.t",
+				"proj4-akp/MM.txt"
+			],
+			[
+				"util",
+				"proj4-akp/src/util.c"
+			],
+			[
+				"test.",
+				"proj4-akp/test/run_test.sh"
+			],
+			[
+				"main",
+				"proj4-akp/src/main.c"
+			],
+			[
+				"compare",
+				"proj4-akp/test/compare_layers.py"
+			],
+			[
+				"timest",
+				"proj4-akp/src/timestamp.c"
+			],
+			[
+				"answe",
+				"proj4-akp/answers.txt"
+			],
+			[
+				"read",
+				"labs/00/README"
+			],
+			[
+				".json",
+				"cs61c/sftp-config.json"
+			],
+			[
+				"proj",
+				"cs61c.sublime-project"
+			],
+			[
+				"has",
+				"~/Developer/cs61c/proj1-akp/hashtable.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Developer/cs61c/cs61c.sublime-project"
+			],
+			[
+				"lti",
+				"~/Developer/LTI-Project/LTI-Project/LTI_Project.sublime-project"
+			],
+			[
+				"show",
+				"~/Desktop/Test/Shows.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "./",
+			"folder_exclude_patterns": ["*Assets*", "Base*"],
+			"file_exclude_patterns": ["*.plist"]
+		}
+	],
+	"settings":
+	[
+		{
+			"tab_size": 4
+		}
+	]
+}
