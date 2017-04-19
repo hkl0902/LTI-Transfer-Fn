@@ -37,3 +37,27 @@ class Solver {
     
 }
 
+class Polynomial {
+    var coefficients = [Int:Float]()    // coefficients in terms of power
+                                // power:coefficient
+    
+    // Destructively multiplies self with another polynomial
+    func multiplyPolynomial(Q: Polynomial) {
+        var newCoefficients = [Int: Float]()
+        
+        for (pPower, p) in coefficients {
+            for (qPower, q) in Q.coefficients {
+                let multipliedPower = pPower + qPower
+                if let currCoeff = newCoefficients[multipliedPower]  {
+                    newCoefficients[multipliedPower] = currCoeff + Float(p * q)
+                } else {
+                    newCoefficients[multipliedPower] = Float(p * q)
+                }
+            }
+        }
+        
+        self.coefficients = newCoefficients
+    }
+    
+    
+}
