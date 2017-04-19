@@ -11,9 +11,13 @@ import XCTest
 
 class LTI_ProjectTests: XCTestCase {
     
+    var vc: ViewController!
+    var brain: GraphBrain!
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        brain = vc.graph
+        
     }
     
     override func tearDown() {

@@ -10,13 +10,13 @@
 		3E088B742C80053C5EF36CA7 /* Pods_LTI_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F15FCE53470499BF6E4444 /* Pods_LTI_Project.framework */; };
 		4703D3891EA0708100BE1585 /* LTI_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3881EA0708100BE1585 /* LTI_ProjectTests.swift */; };
 		4703D3941EA0708100BE1585 /* LTI_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3931EA0708100BE1585 /* LTI_ProjectUITests.swift */; };
-		472069991EA6F8F800D6CC86 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 472069921EA6F8F800D6CC86 /* Base.lproj */; };
-		4720699A1EA6F8F800D6CC86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069931EA6F8F800D6CC86 /* ViewController.swift */; };
-		4720699B1EA6F8F800D6CC86 /* GraphBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069941EA6F8F800D6CC86 /* GraphBrain.swift */; };
-		4720699C1EA6F8F800D6CC86 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 472069951EA6F8F800D6CC86 /* Info.plist */; };
-		4720699D1EA6F8F800D6CC86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069961EA6F8F800D6CC86 /* AppDelegate.swift */; };
-		4720699E1EA6F8F800D6CC86 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069971EA6F8F800D6CC86 /* GraphView.swift */; };
-		4720699F1EA6F8F800D6CC86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472069981EA6F8F800D6CC86 /* Assets.xcassets */; };
+		472069A91EA6FA5C00D6CC86 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 472069A21EA6FA5C00D6CC86 /* Base.lproj */; };
+		472069AA1EA6FA5C00D6CC86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069A31EA6FA5C00D6CC86 /* ViewController.swift */; };
+		472069AB1EA6FA5C00D6CC86 /* GraphBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069A41EA6FA5C00D6CC86 /* GraphBrain.swift */; };
+		472069AC1EA6FA5C00D6CC86 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 472069A51EA6FA5C00D6CC86 /* Info.plist */; };
+		472069AD1EA6FA5C00D6CC86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069A61EA6FA5C00D6CC86 /* AppDelegate.swift */; };
+		472069AE1EA6FA5C00D6CC86 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069A71EA6FA5C00D6CC86 /* GraphView.swift */; };
+		472069AF1EA6FA5C00D6CC86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472069A81EA6FA5C00D6CC86 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +44,14 @@
 		4703D38F1EA0708100BE1585 /* LTI-ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LTI-ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4703D3931EA0708100BE1585 /* LTI_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTI_ProjectUITests.swift; sourceTree = "<group>"; };
 		4703D3951EA0708100BE1585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		472069921EA6F8F800D6CC86 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = LTIProject/Base.lproj; sourceTree = "<group>"; };
-		472069931EA6F8F800D6CC86 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = LTIProject/ViewController.swift; sourceTree = "<group>"; };
-		472069941EA6F8F800D6CC86 /* GraphBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphBrain.swift; path = LTIProject/GraphBrain.swift; sourceTree = "<group>"; };
-		472069951EA6F8F800D6CC86 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LTIProject/Info.plist; sourceTree = "<group>"; };
-		472069961EA6F8F800D6CC86 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = LTIProject/AppDelegate.swift; sourceTree = "<group>"; };
-		472069971EA6F8F800D6CC86 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphView.swift; path = LTIProject/GraphView.swift; sourceTree = "<group>"; };
-		472069981EA6F8F800D6CC86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = LTIProject/Assets.xcassets; sourceTree = "<group>"; };
+		472069A11EA6FA5C00D6CC86 /* LTI-Project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LTI-Project-Bridging-Header.h"; sourceTree = "<group>"; };
+		472069A21EA6FA5C00D6CC86 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = "LTI-Project/Base.lproj"; sourceTree = "<group>"; };
+		472069A31EA6FA5C00D6CC86 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "LTI-Project/ViewController.swift"; sourceTree = "<group>"; };
+		472069A41EA6FA5C00D6CC86 /* GraphBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphBrain.swift; path = "LTI-Project/GraphBrain.swift"; sourceTree = "<group>"; };
+		472069A51EA6FA5C00D6CC86 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "LTI-Project/Info.plist"; sourceTree = "<group>"; };
+		472069A61EA6FA5C00D6CC86 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "LTI-Project/AppDelegate.swift"; sourceTree = "<group>"; };
+		472069A71EA6FA5C00D6CC86 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphView.swift; path = "LTI-Project/GraphView.swift"; sourceTree = "<group>"; };
+		472069A81EA6FA5C00D6CC86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "LTI-Project/Assets.xcassets"; sourceTree = "<group>"; };
 		47A126E81EA12C6600C72EC7 /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CorePlot.framework; path = "Pods/../build/Debug-iphoneos/CorePlot/CorePlot.framework"; sourceTree = "<group>"; };
 		47D6AAC71EA079AE0075C256 /* SwiftCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftCharts.framework; path = "../../Library/Developer/Xcode/DerivedData/LTI-Project-chvgpcmslponawbtjezgbhdgtwai/Build/Products/Debug-iphonesimulator/SwiftCharts/SwiftCharts.framework"; sourceTree = "<group>"; };
 		47D6AAC91EA07D120075C256 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../Library/Developer/Xcode/DerivedData/LTI-Project-chvgpcmslponawbtjezgbhdgtwai/Build/Products/Debug-iphonesimulator/Charts/Charts.framework"; sourceTree = "<group>"; };
@@ -128,13 +129,14 @@
 		472069A01EA6F8FF00D6CC86 /* LTI-Project */ = {
 			isa = PBXGroup;
 			children = (
-				472069921EA6F8F800D6CC86 /* Base.lproj */,
-				472069931EA6F8F800D6CC86 /* ViewController.swift */,
-				472069941EA6F8F800D6CC86 /* GraphBrain.swift */,
-				472069951EA6F8F800D6CC86 /* Info.plist */,
-				472069961EA6F8F800D6CC86 /* AppDelegate.swift */,
-				472069971EA6F8F800D6CC86 /* GraphView.swift */,
-				472069981EA6F8F800D6CC86 /* Assets.xcassets */,
+				472069A21EA6FA5C00D6CC86 /* Base.lproj */,
+				472069A31EA6FA5C00D6CC86 /* ViewController.swift */,
+				472069A41EA6FA5C00D6CC86 /* GraphBrain.swift */,
+				472069A51EA6FA5C00D6CC86 /* Info.plist */,
+				472069A61EA6FA5C00D6CC86 /* AppDelegate.swift */,
+				472069A71EA6FA5C00D6CC86 /* GraphView.swift */,
+				472069A81EA6FA5C00D6CC86 /* Assets.xcassets */,
+				472069A11EA6FA5C00D6CC86 /* LTI-Project-Bridging-Header.h */,
 			);
 			name = "LTI-Project";
 			sourceTree = "<group>";
@@ -231,6 +233,7 @@
 					4703D36F1EA0708000BE1585 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7WY88RT397;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					4703D3831EA0708100BE1585 = {
@@ -272,9 +275,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				472069991EA6F8F800D6CC86 /* Base.lproj in Resources */,
-				4720699F1EA6F8F800D6CC86 /* Assets.xcassets in Resources */,
-				4720699C1EA6F8F800D6CC86 /* Info.plist in Resources */,
+				472069AC1EA6FA5C00D6CC86 /* Info.plist in Resources */,
+				472069AF1EA6FA5C00D6CC86 /* Assets.xcassets in Resources */,
+				472069A91EA6FA5C00D6CC86 /* Base.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,10 +350,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4720699A1EA6F8F800D6CC86 /* ViewController.swift in Sources */,
-				4720699B1EA6F8F800D6CC86 /* GraphBrain.swift in Sources */,
-				4720699D1EA6F8F800D6CC86 /* AppDelegate.swift in Sources */,
-				4720699E1EA6F8F800D6CC86 /* GraphView.swift in Sources */,
+				472069AD1EA6FA5C00D6CC86 /* AppDelegate.swift in Sources */,
+				472069AA1EA6FA5C00D6CC86 /* ViewController.swift in Sources */,
+				472069AB1EA6FA5C00D6CC86 /* GraphBrain.swift in Sources */,
+				472069AE1EA6FA5C00D6CC86 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +487,7 @@
 			baseConfigurationReference = 91A176D361B1989338E37C5F /* Pods-LTI-Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7WY88RT397;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -493,6 +497,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hlee.LTI-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LTI-Project-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -503,6 +509,7 @@
 			baseConfigurationReference = 84D7154D8DF4120AD375D814 /* Pods-LTI-Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7WY88RT397;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -512,6 +519,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hlee.LTI-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LTI-Project-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -9,13 +9,9 @@
 import XCTest
 
 class LTI_ProjectUITests: XCTestCase {
-    
-    var vc: ViewController!
         
     override func setUp() {
         super.setUp()
-        
-        vc = ViewController()
         
         // Put setup code here. This method is called before the invocation of each test method in the class.
         

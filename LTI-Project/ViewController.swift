@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var graph: GraphView?
+    var graphBrain: GraphBrain = GraphBrain()
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -24,6 +25,7 @@ class ViewController: UIViewController {
     override func viewWillLayoutSubviews() {
         self.view.backgroundColor = .white
         graph = GraphView(frame: self.view.bounds)
+        graphBrain.view = self.view
         self.view.addSubview(graph!)
         graph?.backgroundColor = UIColor.white
         graph?.setNeedsDisplay()
