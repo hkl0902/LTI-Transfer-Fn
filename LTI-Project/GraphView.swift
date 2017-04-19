@@ -15,6 +15,8 @@ class GraphView: UIView {
     var xAxis: UIBezierPath?
     var unitCircle: UIBezierPath?
     
+    var points: [UIBezierPath]? // These are the poles and zeros
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         //self.backgroundColor = UIColor.white
@@ -25,13 +27,32 @@ class GraphView: UIView {
     }
     
     override func draw(_ rect: CGRect) {
-        let midY = self.bounds.midY
+        drawYAxis()
+        drawXAxis()
+        drawUnitCircle()
+        drawPoints()
+    }
+    
+    private func drawPoints() {
+        UIColor.black.setStroke()
+        guard let points = points else { return }
+        for point in points {
+            point.stroke()
+            point.close()
+        }
+    }
+    
+    private func clearPoints() {
+        guard let points = points else { return }
+        for point in points {
+            point.removeAllPoints()
+        }
+    }
+    
+    private func drawYAxis() {
         let midX = self.bounds.midX
-        let maxX = self.bounds.maxX
-        let minX = self.bounds.minX
         let maxY = self.bounds.maxY
         let minY = self.bounds.minY
-        // yaxis
         yAxis = UIBezierPath()
         yAxis?.move(to: CGPoint(x: midX, y: minY))
         yAxis?.addLine(to: CGPoint(x: midX, y: maxY))
@@ -41,7 +62,12 @@ class GraphView: UIView {
         yAxis?.stroke()
         yAxis?.fill()
         yAxis?.close()
-        // xaxis
+    }
+    
+    private func drawXAxis() {
+        let midY = self.bounds.midY
+        let maxX = self.bounds.maxX
+        let minX = self.bounds.minX
         xAxis = UIBezierPath()
         xAxis?.move(to: CGPoint(x: minX, y: midY))
         xAxis?.addLine(to: CGPoint(x: maxX, y: midY))
@@ -51,14 +77,17 @@ class GraphView: UIView {
         xAxis?.stroke()
         xAxis?.fill()
         xAxis?.close()
-        // unit cricle
+    }
+    
+    private func drawUnitCircle() {
+        let midY = self.bounds.midY
+        let midX = self.bounds.midX
         unitCircle = UIBezierPath(arcCenter: CGPoint(x: midX, y: midY), radius: midX/10, startAngle: 0, endAngle: 2*CGFloat.pi, clockwise: true)
         UIColor.red.withAlphaComponent(0.5).setStroke()
         unitCircle?.lineWidth = 1
         unitCircle?.setLineDash(nil, count: 30, phase: 0)
         unitCircle?.stroke()
         unitCircle?.close()
-        
     }
     
     // The center should be "centered"
@@ -86,7 +115,7 @@ class GraphView: UIView {
         path.addLine(to: topRight)
         path.stroke()
         path.close()
-
+        points?.append(path)
         return;
     }
     
@@ -97,6 +126,7 @@ class GraphView: UIView {
         UIColor.black.setStroke()
         path.stroke()
         path.close()
+        points?.append(path)
         return;
     }    
 }
