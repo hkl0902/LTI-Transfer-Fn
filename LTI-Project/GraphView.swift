@@ -109,7 +109,7 @@ class GraphView: UIView {
         let xL = center.x + 5*cos(CGFloat.pi/4.0 * 3)
         let yT  = center.y + 5*sin(CGFloat.pi/4.0*3)
         let xR = center.x + 5*cos(-CGFloat.pi/4)
-        let yD = center.x + 5*sin(-CGFloat.pi/4)
+        let yD = center.y + 5*sin(-CGFloat.pi/4)
 
         let topLeft = CGPoint(x: xL, y: yT)
         let topRight = CGPoint(x: xR, y: yT)

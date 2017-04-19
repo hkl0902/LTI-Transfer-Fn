@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LTI-Project/GraphView.swift"
-            timestampString = "514316708.047997"
+            timestampString = "514316900.178612"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
-            landmarkName = "drawZero(center:)"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "drawPole(center:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
