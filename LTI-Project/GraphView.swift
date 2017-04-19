@@ -11,11 +11,20 @@ import Foundation
 
 class GraphView: UIView {
     
+    enum Point {
+        case Zero(CGPoint)
+        case Pole(CGPoint)
+    }
+    
     var yAxis: UIBezierPath?
     var xAxis: UIBezierPath?
     var unitCircle: UIBezierPath?
     
-    var points: [UIBezierPath]? // These are the poles and zeros
+    var points: [Point]? {
+        didSet {
+            self.setNeedsDisplay()
+        }
+    }// These are the poles and zeros
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -31,22 +40,25 @@ class GraphView: UIView {
         drawXAxis()
         drawUnitCircle()
         drawPoints()
+        
     }
     
     private func drawPoints() {
         UIColor.black.setStroke()
         guard let points = points else { return }
         for point in points {
-            point.stroke()
-            point.close()
+            switch point {
+            case .Pole(let pole):
+                drawPole(center: pole)
+            case .Zero(let zero):
+                drawZero(center: zero)
+            }
         }
     }
     
     private func clearPoints() {
-        guard let points = points else { return }
-        for point in points {
-            point.removeAllPoints()
-        }
+        points?.removeAll()
+        
     }
     
     private func drawYAxis() {
@@ -92,7 +104,7 @@ class GraphView: UIView {
     
     // The center should be "centered"
     
-    private func drawPole(center: CGPoint) {
+    func drawPole(center: CGPoint) {
         let path = UIBezierPath()
         //path.move(to: center)
         let xL = center.x + 5*cos(CGFloat.pi/4.0 * 3)
@@ -115,18 +127,16 @@ class GraphView: UIView {
         path.addLine(to: topRight)
         path.stroke()
         path.close()
-        points?.append(path)
         return;
     }
     
     // The center should be "centered"
     
-    private func drawZero(center: CGPoint) {
+    func drawZero(center: CGPoint) {
         let path = UIBezierPath(arcCenter: center, radius: 3, startAngle: 0, endAngle: 2*CGFloat.pi, clockwise: true)
         UIColor.black.setStroke()
         path.stroke()
         path.close()
-        points?.append(path)
         return;
     }    
 }
