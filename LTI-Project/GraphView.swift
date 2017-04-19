@@ -19,6 +19,7 @@ class GraphView: UIView {
     var yAxis: UIBezierPath?
     var xAxis: UIBezierPath?
     var unitCircle: UIBezierPath?
+    var unitCircleRadius: CGFloat?
     
     var points: [Point] = [] {      // TODO: separate this out for more mvc code
         didSet {
@@ -40,7 +41,6 @@ class GraphView: UIView {
         drawXAxis()
         drawUnitCircle()
         drawPoints()
-        
     }
     
     private func drawPoints() {
@@ -91,9 +91,10 @@ class GraphView: UIView {
     }
     
     private func drawUnitCircle() {
+        let radius = unitCircleRadius ?? 0
         let midY = self.bounds.midY
         let midX = self.bounds.midX
-        unitCircle = UIBezierPath(arcCenter: CGPoint(x: midX, y: midY), radius: midX/10, startAngle: 0, endAngle: 2*CGFloat.pi, clockwise: true)
+        unitCircle = UIBezierPath(arcCenter: CGPoint(x: midX, y: midY), radius: radius, startAngle: 0, endAngle: 2*CGFloat.pi, clockwise: true)
         UIColor.red.withAlphaComponent(0.5).setStroke()
         unitCircle?.lineWidth = 1
         unitCircle?.setLineDash(nil, count: 30, phase: 0)

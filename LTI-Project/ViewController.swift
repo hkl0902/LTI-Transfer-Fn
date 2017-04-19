@@ -74,6 +74,10 @@ class ViewController: UIViewController {
         self.view.backgroundColor = .white
         graph = GraphView(frame: self.view.bounds)
         graphBrain.view = self.view
+        // set radius
+        let angle0 = graphBrain.getViewPoint(CGPoint(x: 1, y: 0))
+        let radius = angle0.x - self.view.bounds.midX
+        graph?.unitCircleRadius = radius     // set radius
         self.view.addSubview(graph!)
         graph?.backgroundColor = UIColor.white
         graph?.setNeedsDisplay()

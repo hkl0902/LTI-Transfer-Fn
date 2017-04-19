@@ -19,6 +19,7 @@ class SolverViewController: UIViewController {
         solverView = SolverView(frame: self.view.frame)
         self.view.addSubview(solverView!)
         solverView?.backgroundColor = .yellow
+        print(points)
         
     }
     
