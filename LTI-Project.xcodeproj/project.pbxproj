@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3E088B742C80053C5EF36CA7 /* Pods_LTI_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F15FCE53470499BF6E4444 /* Pods_LTI_Project.framework */; };
-		4703D3741EA0708100BE1585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3731EA0708100BE1585 /* AppDelegate.swift */; };
-		4703D3761EA0708100BE1585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3751EA0708100BE1585 /* ViewController.swift */; };
-		4703D37B1EA0708100BE1585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4703D37A1EA0708100BE1585 /* Assets.xcassets */; };
 		4703D3891EA0708100BE1585 /* LTI_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3881EA0708100BE1585 /* LTI_ProjectTests.swift */; };
 		4703D3941EA0708100BE1585 /* LTI_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703D3931EA0708100BE1585 /* LTI_ProjectUITests.swift */; };
-		47ADD6A01EA6DB2200C3B685 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADD69F1EA6DB2200C3B685 /* GraphView.swift */; };
-		47ADD6A41EA6F1F000C3B685 /* GraphBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADD6A31EA6F1F000C3B685 /* GraphBrain.swift */; };
+		472069991EA6F8F800D6CC86 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 472069921EA6F8F800D6CC86 /* Base.lproj */; };
+		4720699A1EA6F8F800D6CC86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069931EA6F8F800D6CC86 /* ViewController.swift */; };
+		4720699B1EA6F8F800D6CC86 /* GraphBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069941EA6F8F800D6CC86 /* GraphBrain.swift */; };
+		4720699C1EA6F8F800D6CC86 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 472069951EA6F8F800D6CC86 /* Info.plist */; };
+		4720699D1EA6F8F800D6CC86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069961EA6F8F800D6CC86 /* AppDelegate.swift */; };
+		4720699E1EA6F8F800D6CC86 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472069971EA6F8F800D6CC86 /* GraphView.swift */; };
+		4720699F1EA6F8F800D6CC86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472069981EA6F8F800D6CC86 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +38,20 @@
 
 /* Begin PBXFileReference section */
 		4703D3701EA0708100BE1585 /* LTI-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LTI-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4703D3731EA0708100BE1585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4703D3751EA0708100BE1585 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4703D37A1EA0708100BE1585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4703D37F1EA0708100BE1585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4703D3841EA0708100BE1585 /* LTI-ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LTI-ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4703D3881EA0708100BE1585 /* LTI_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTI_ProjectTests.swift; sourceTree = "<group>"; };
 		4703D38A1EA0708100BE1585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4703D38F1EA0708100BE1585 /* LTI-ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LTI-ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4703D3931EA0708100BE1585 /* LTI_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTI_ProjectUITests.swift; sourceTree = "<group>"; };
 		4703D3951EA0708100BE1585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472069921EA6F8F800D6CC86 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = LTIProject/Base.lproj; sourceTree = "<group>"; };
+		472069931EA6F8F800D6CC86 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = LTIProject/ViewController.swift; sourceTree = "<group>"; };
+		472069941EA6F8F800D6CC86 /* GraphBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphBrain.swift; path = LTIProject/GraphBrain.swift; sourceTree = "<group>"; };
+		472069951EA6F8F800D6CC86 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LTIProject/Info.plist; sourceTree = "<group>"; };
+		472069961EA6F8F800D6CC86 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = LTIProject/AppDelegate.swift; sourceTree = "<group>"; };
+		472069971EA6F8F800D6CC86 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphView.swift; path = LTIProject/GraphView.swift; sourceTree = "<group>"; };
+		472069981EA6F8F800D6CC86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = LTIProject/Assets.xcassets; sourceTree = "<group>"; };
 		47A126E81EA12C6600C72EC7 /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CorePlot.framework; path = "Pods/../build/Debug-iphoneos/CorePlot/CorePlot.framework"; sourceTree = "<group>"; };
-		47ADD69F1EA6DB2200C3B685 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
-		47ADD6A31EA6F1F000C3B685 /* GraphBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphBrain.swift; sourceTree = "<group>"; };
 		47D6AAC71EA079AE0075C256 /* SwiftCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftCharts.framework; path = "../../Library/Developer/Xcode/DerivedData/LTI-Project-chvgpcmslponawbtjezgbhdgtwai/Build/Products/Debug-iphonesimulator/SwiftCharts/SwiftCharts.framework"; sourceTree = "<group>"; };
 		47D6AAC91EA07D120075C256 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../Library/Developer/Xcode/DerivedData/LTI-Project-chvgpcmslponawbtjezgbhdgtwai/Build/Products/Debug-iphonesimulator/Charts/Charts.framework"; sourceTree = "<group>"; };
 		84D7154D8DF4120AD375D814 /* Pods-LTI-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTI-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTI-Project/Pods-LTI-Project.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,7 +88,7 @@
 		4703D3671EA0708000BE1585 = {
 			isa = PBXGroup;
 			children = (
-				4703D3721EA0708100BE1585 /* LTI-Project */,
+				472069A01EA6F8FF00D6CC86 /* LTI-Project */,
 				4703D3871EA0708100BE1585 /* LTI-ProjectTests */,
 				4703D3921EA0708100BE1585 /* LTI-ProjectUITests */,
 				4703D3711EA0708100BE1585 /* Products */,
@@ -104,19 +107,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4703D3721EA0708100BE1585 /* LTI-Project */ = {
-			isa = PBXGroup;
-			children = (
-				4703D3731EA0708100BE1585 /* AppDelegate.swift */,
-				4703D3751EA0708100BE1585 /* ViewController.swift */,
-				47ADD6A31EA6F1F000C3B685 /* GraphBrain.swift */,
-				47ADD69F1EA6DB2200C3B685 /* GraphView.swift */,
-				4703D37A1EA0708100BE1585 /* Assets.xcassets */,
-				4703D37F1EA0708100BE1585 /* Info.plist */,
-			);
-			path = "LTI-Project";
-			sourceTree = "<group>";
-		};
 		4703D3871EA0708100BE1585 /* LTI-ProjectTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +123,20 @@
 				4703D3951EA0708100BE1585 /* Info.plist */,
 			);
 			path = "LTI-ProjectUITests";
+			sourceTree = "<group>";
+		};
+		472069A01EA6F8FF00D6CC86 /* LTI-Project */ = {
+			isa = PBXGroup;
+			children = (
+				472069921EA6F8F800D6CC86 /* Base.lproj */,
+				472069931EA6F8F800D6CC86 /* ViewController.swift */,
+				472069941EA6F8F800D6CC86 /* GraphBrain.swift */,
+				472069951EA6F8F800D6CC86 /* Info.plist */,
+				472069961EA6F8F800D6CC86 /* AppDelegate.swift */,
+				472069971EA6F8F800D6CC86 /* GraphView.swift */,
+				472069981EA6F8F800D6CC86 /* Assets.xcassets */,
+			);
+			name = "LTI-Project";
 			sourceTree = "<group>";
 		};
 		83E6733AC6E115B58D7E5325 /* Frameworks */ = {
@@ -268,7 +272,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4703D37B1EA0708100BE1585 /* Assets.xcassets in Resources */,
+				472069991EA6F8F800D6CC86 /* Base.lproj in Resources */,
+				4720699F1EA6F8F800D6CC86 /* Assets.xcassets in Resources */,
+				4720699C1EA6F8F800D6CC86 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,10 +347,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4703D3761EA0708100BE1585 /* ViewController.swift in Sources */,
-				47ADD6A41EA6F1F000C3B685 /* GraphBrain.swift in Sources */,
-				4703D3741EA0708100BE1585 /* AppDelegate.swift in Sources */,
-				47ADD6A01EA6DB2200C3B685 /* GraphView.swift in Sources */,
+				4720699A1EA6F8F800D6CC86 /* ViewController.swift in Sources */,
+				4720699B1EA6F8F800D6CC86 /* GraphBrain.swift in Sources */,
+				4720699D1EA6F8F800D6CC86 /* AppDelegate.swift in Sources */,
+				4720699E1EA6F8F800D6CC86 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

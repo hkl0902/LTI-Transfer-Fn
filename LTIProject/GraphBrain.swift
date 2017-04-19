@@ -11,6 +11,9 @@ import UIKit
 
 class GraphBrain {
     
+    static let MAX_Y: CGFloat = 5
+    static let MAX_X: CGFloat = 5
+    
     // All the poles and zeros (properly centered)
     var poles: [CGPoint]
     var zeros: [CGPoint]
@@ -31,11 +34,14 @@ class GraphBrain {
     }
     
     // Centers a point given the superview
+    // point: the result of a touch or click on the surface
+    // @return: the x and y value of that point given the above maxY/maxX
     private func centerPoint(_ point: CGPoint) -> CGPoint {
         let midX = view.bounds.midX
         let midY = view.bounds.midY
+        
         // TODO: Correct the scaling
-        return CGPoint(x: point.x + midX, y: point.y + midY)
+        return CGPoint(x: (point.x - midX)/GraphBrain.MAX_X, y: (point.y - midY)/GraphBrain.MAX_Y)
     }
     
 }
