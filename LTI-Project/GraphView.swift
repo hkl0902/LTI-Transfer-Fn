@@ -61,6 +61,29 @@ class GraphView: UIView {
     }
     
     private func drawPole(center: CGPoint) {
+        let path = UIBezierPath()
+        //path.move(to: center)
+        let xL = center.x + 5*cos(CGFloat.pi/4.0 * 3)
+        let yT  = center.y + 5*sin(CGFloat.pi/4.0*3)
+        let xR = center.x + 5*cos(-CGFloat.pi/4)
+        let yD = center.x + 5*sin(-CGFloat.pi/4)
+
+        let topLeft = CGPoint(x: xL, y: yT)
+        let topRight = CGPoint(x: xR, y: yT)
+        let bottomLeft = CGPoint(x: xL, y: yD)
+        let bottomRight = CGPoint(x: xR, y: yD)
+
+        path.move(to: topLeft)
+        path.addLine(to: bottomRight)
+        UIColor.black.setStroke()
+        path.stroke()
+        path.close()
+
+        path.move(to: bottomLeft)
+        path.addLine(to: topRight)
+        path.stroke()
+        path.close()
+
         return;
     }
     
