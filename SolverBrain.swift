@@ -27,7 +27,28 @@ class Solver {
             }
         }
         
+        var numeratorPolynomials    = [Polynomial]()
+        var denominatorPolynomials  = [Polynomial]()
         // Go from zeros/poles into a long polynomial of z^{-n}
+        // initializeNumerator
+        
+        
+        for zero in zeros {
+            var p = Polynomial()
+            p.coefficients = [0:(-Float(zero.x), -Float(zero.y)), 1:(1.0, 0)] // x - zero
+        }
+        
+        // initializeDenominator
+        
+        
+        
+        for pole in poles {
+            var p = Polynomial()
+            p.coefficients = [0:(-Float(pole.x), -Float(pole.y)), 1:(1.0, 0)] // x - zero
+        }
+        
+        
+        
         // multiply poles
         // multiply zeros
         return ([0], [0])
@@ -38,20 +59,22 @@ class Solver {
 }
 
 class Polynomial {
-    var coefficients = [Int:Float]()    // coefficients in terms of power
+    var coefficients = [Int:(Float, Float)]()    // coefficients in terms of power
                                 // power:coefficient
     
     // Destructively multiplies self with another polynomial
     func multiplyPolynomial(Q: Polynomial) {
-        var newCoefficients = [Int: Float]()
+        var newCoefficients = [Int: (Float, Float)]()
         
-        for (pPower, p) in coefficients {
-            for (qPower, q) in Q.coefficients {
+        for (pPower, (pR, pI)) in coefficients {
+            for (qPower, (qR, qI)) in Q.coefficients {
                 let multipliedPower = pPower + qPower
-                if let currCoeff = newCoefficients[multipliedPower]  {
-                    newCoefficients[multipliedPower] = currCoeff + Float(p * q)
+                let prodR = Float(pR*qR) - Float(pI*qI)
+                let prodI = Float(pR*qI) + Float(pI*qR)
+                if let (currCoeffR, currCoeffI) = newCoefficients[multipliedPower]  {
+                    newCoefficients[multipliedPower] = (currCoeffR + prodR, currCoeffI + prodI)
                 } else {
-                    newCoefficients[multipliedPower] = Float(p * q)
+                    newCoefficients[multipliedPower] = (prodR, prodI)
                 }
             }
         }
