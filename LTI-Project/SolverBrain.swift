@@ -27,16 +27,15 @@ class Solver {
             }
         }
         
-        var numeratorPolynomial = Polynomial()
+        let numeratorPolynomial = Polynomial()
         numeratorPolynomial.coefficients = [0:(1, 0)]
-        var denominatorPolynomial  = Polynomial()
+        let denominatorPolynomial  = Polynomial()
         denominatorPolynomial.coefficients = [0:(1, 0)]
         // Go from zeros/poles into a long polynomial of z^{-n}
         // initializeNumerator
         
-        
         for zero in zeros {
-            var p = Polynomial()
+            let p = Polynomial()
             p.coefficients = [0:(-Float(zero.x), -Float(zero.y)), 1:(1.0, 0)] // x - zero
             numeratorPolynomial.multiplyPolynomial(p)
         }
@@ -44,12 +43,10 @@ class Solver {
         // initializeDenominator
         
         for pole in poles {
-            var p = Polynomial()
+            let p = Polynomial()
             p.coefficients = [0:(-Float(pole.x), -Float(pole.y)), 1:(1.0, 0)] // x - zero
             denominatorPolynomial.multiplyPolynomial(p)
         }
-        
-        
         
         // multiply poles
         // multiply zeros

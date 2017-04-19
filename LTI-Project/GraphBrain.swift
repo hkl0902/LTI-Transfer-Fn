@@ -41,4 +41,14 @@ class GraphBrain {
         return CGPoint(x: (point.x - midX)*GraphBrain.MAX_X/maxX*2, y: -(point.y - midY)*GraphBrain.MAX_Y/maxY*2)
     }
     
+    
+    // given a point in the coordinate system, returns the coordinates in the view coordinate system
+    func getLocation(_ point: CGPoint) {
+        let maxX = view.bounds.maxX
+        let maxY = view.bounds.maxY
+        let midX = view.bounds.midX
+        let midY = view.bounds.midY
+        return CGPoint(x: point/2*maxX/GraphBrain.MAX_X + midX, y: -y/2*maxY/GraphBrain.MAX_Y + midY)
+    }
+    
 }
