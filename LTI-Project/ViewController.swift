@@ -9,19 +9,32 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var graph: GraphView?
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .green
-        //self.view.add(chart)
         
     }
+    
+    override func viewWillLayoutSubviews() {
+        self.view.backgroundColor = .white
+        graph = GraphView(frame: self.view.bounds)
+        self.view.addSubview(graph!)
+        graph?.backgroundColor = UIColor.white
+        graph?.setNeedsDisplay()
+        print(graph?.bounds ?? "Fuck")
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
 }
 
