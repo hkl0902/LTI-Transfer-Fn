@@ -56,10 +56,12 @@ class Solver {
     func getDifferenceEquation() -> (String, String) {
         // numerator gives coeff for x
         // denom gives coeff for y
-        return ("", "")
+        let xStr = polyToString(polynomial: numeratorPolynomial, "x")
+        let yStr = polyToString(polynomial: denominatorPolynomial, "y")
+        return (xStr, yStr)
     }
     
-    func numeratorToString(polynomial: Polynomial, _ variable: Character) -> String {
+    private func polyToString(polynomial: Polynomial, _ variable: Character) -> String {
         let sortedKeys = Array(polynomial.coefficients.keys).sorted()
         var strRepr = ""
         for power in sortedKeys {

@@ -113,12 +113,7 @@ class LTI_ProjectTests: XCTestCase {
        XCTAssert(pCoeff[5]!.1 == 0)
         print("Success")
     }
-    
-    func testToStringPoly() {
-        let p = Polynomial()
-        p.coefficients = [0:(1, 0), 1:(1, 2), 3:(2, 4)]
-        
-    }
+
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
@@ -155,6 +150,7 @@ class Polynomial {
         self.coefficients = newCoefficients
     }
 }
+
 
 
 
