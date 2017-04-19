@@ -26,8 +26,8 @@ class ViewController: UIViewController {
     
     func touchInput(gestureRecognizer: UITapGestureRecognizer) {
         let loc = gestureRecognizer.location(in: self.view)
-        print(loc)
-        print(graphBrain.centerPoint(loc))
+        print("Touch was at: \t \(loc)")
+        print("Coord Sys at: \t \(graphBrain.centerPoint(loc))")
     }
     
     override func viewWillLayoutSubviews() {
@@ -37,7 +37,6 @@ class ViewController: UIViewController {
         self.view.addSubview(graph!)
         graph?.backgroundColor = UIColor.white
         graph?.setNeedsDisplay()
-        print(graph?.bounds ?? "Fuck")
     }
     
 

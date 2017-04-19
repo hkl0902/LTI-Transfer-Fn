@@ -12,7 +12,7 @@ import UIKit
 class GraphBrain {
     
     static let MAX_Y: CGFloat = 5
-    static let MAX_X: CGFloat = 5
+    static let MAX_X: CGFloat = 10
     
     // All the poles and zeros (properly centered)
     var poles: [CGPoint] = []
@@ -34,9 +34,11 @@ class GraphBrain {
         guard let view = view else { return CGPoint(x: 0, y: 0) } 
         let midX = view.bounds.midX
         let midY = view.bounds.midY
+        let maxX = view.bounds.maxX
+        let maxY = view.bounds.maxY
         
         // TODO: Correct the scaling
-        return CGPoint(x: (point.x - midX)/GraphBrain.MAX_X, y: (point.y - midY)/GraphBrain.MAX_Y)
+        return CGPoint(x: (point.x - midX)*GraphBrain.MAX_X/maxX*2, y: -(point.y - midY)*GraphBrain.MAX_Y/maxY*2)
     }
     
 }
