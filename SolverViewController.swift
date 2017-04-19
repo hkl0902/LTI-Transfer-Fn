@@ -10,11 +10,18 @@ import UIKit
 
 class SolverViewController: UIViewController {
 
+    var solverView = SolverView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.view.backgroundColor = .green
+        self.view.addSubview(solverView)
+        solverView.backgroundColor = .yellow
     }
+    
+    override func viewWillLayoutSubviews() {
+    }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
