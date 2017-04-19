@@ -66,6 +66,7 @@ class ViewController: UIViewController {
     
     func solve() {
         let solver = SolverViewController()
+        solver.points = (graph?.points)!        // todo
         self.navigationController?.pushViewController(solver, animated: true)
     }
     

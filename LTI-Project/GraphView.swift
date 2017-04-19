@@ -20,7 +20,7 @@ class GraphView: UIView {
     var xAxis: UIBezierPath?
     var unitCircle: UIBezierPath?
     
-    var points: [Point] = [] {
+    var points: [Point] = [] {      // TODO: separate this out for more mvc code
         didSet {
             self.setNeedsDisplay()
         }
