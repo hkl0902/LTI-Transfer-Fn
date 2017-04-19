@@ -11,14 +11,16 @@ import UIKit
 
 class Solver {
     
-    var points: [GraphView.Point] = [] // all points are in ios coordinate system, must be centered
+    var roots: [GraphView.Point] = [] // all points are in ios coordinate system, must be centered
+    let numeratorPolynomial = Polynomial()
+    let denominatorPolynomial = Polynomial() 
     
     // Returns a list of the coeficients of the polynomials in the numerator/denominator
-    func transferFunction() -> (numerator: [CGFloat], denominator: [CGFloat]){
+    func transferFunction() -> (numerator: Polynomial, denominator: Polynomial){
         var zeros: [CGPoint] = [] // roots in numerator
         var poles: [CGPoint] = [] // roots in denominator
         
-        for point in points {
+        for point in roots {
             switch point {
             case .Pole(let pole):
                 poles += [pole]
@@ -27,9 +29,7 @@ class Solver {
             }
         }
         
-        let numeratorPolynomial = Polynomial()
         numeratorPolynomial.coefficients = [0:(1, 0)]
-        let denominatorPolynomial  = Polynomial()
         denominatorPolynomial.coefficients = [0:(1, 0)]
         // Go from zeros/poles into a long polynomial of z^{-n}
         // initializeNumerator
@@ -47,14 +47,29 @@ class Solver {
             p.coefficients = [0:(-Float(pole.x), -Float(pole.y)), 1:(1.0, 0)] // x - zero
             denominatorPolynomial.multiplyPolynomial(p)
         }
-        
-        // multiply poles
-        // multiply zeros
-        return ([0], [0])
+
+        // TODO get correct value
+        return (Polynomial(), Polynomial())
     }
     
     // func get difference equation
+    func getDifferenceEquation() -> (String, String) {
+        // numerator gives coeff for x
+        // denom gives coeff for y
+        return ("", "")
+    }
     
+    func numeratorToString(polynomial: Polynomial, _ variable: Character) -> String {
+        let sortedKeys = Array(polynomial.coefficients.keys).sorted()
+        var strRepr = ""
+        for power in sortedKeys {
+            if let coeff = polynomial.coefficients[power] {
+                strRepr += "\(coeff.0)\(variable)[n + (\(power))] +"
+            }
+        }
+        strRepr.remove(at: strRepr.index(before: strRepr.endIndex))
+        return strRepr
+    }
 }
 
 class Polynomial {
