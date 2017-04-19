@@ -58,7 +58,10 @@ class GraphView: UIView {
         unitCircle?.setLineDash(nil, count: 30, phase: 0)
         unitCircle?.stroke()
         unitCircle?.close()
+        
     }
+    
+    // The center should be "centered"
     
     private func drawPole(center: CGPoint) {
         let path = UIBezierPath()
@@ -87,12 +90,22 @@ class GraphView: UIView {
         return;
     }
     
+    // The center should be "centered"
+    
     private func drawZero(center: CGPoint) {
-        let path = UIBezierPath(arcCenter: center, radius: 3, startAngle: 0, endAngle: 2*CGFloat.pi, clockwise: true)
+        let centerNorm = centerPoint(point: center)
+        let path = UIBezierPath(arcCenter: centerNorm, radius: 3, startAngle: 0, endAngle: 2*CGFloat.pi, clockwise: true)
         UIColor.black.setStroke()
         path.stroke()
         path.close()
         return;
+    }
+    
+    private func centerPoint(point: CGPoint) -> CGPoint {
+    	let midX = self.bounds.midX
+    	let midY = self.bounds.midY
+    	// TODO: Correct the scaling
+        return CGPoint(x: point.x + midX, y: point.y + midY)
     }
     
 }
