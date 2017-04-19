@@ -42,9 +42,9 @@ func testPolynomial() {
 
 	var pCoeff = p.coefficients
 
-	assert(pCoeff[0]! == (-0.25, 0))
-	assert(pCoeff[1]! == (0, 0))
-	assert(pCoeff[2]! == (1, 0))
+	XCTassert(pCoeff[0]! == (-0.25, 0))
+	XCTassert(pCoeff[1]! == (0, 0))
+	XCTassert(pCoeff[2]! == (1, 0))
 
 	print("test1")
 
@@ -58,10 +58,10 @@ func testPolynomial() {
 
 	pCoeff = p.coefficients
 
-	assert(pCoeff[0]! == (Float(3)*sqrt(3)/4, 0))
-	assert(pCoeff[1]! == (-1/4, 0))
-	assert(pCoeff[2]! == (-Float(3)*sqrt(3), 0))
-	assert(pCoeff[3]! == (1, 0))
+	XCTassert(pCoeff[0]! == (Float(3)*sqrt(3)/4, 0))
+	XCTassert(pCoeff[1]! == (-1/4, 0))
+	XCTassert(pCoeff[2]! == (-Float(3)*sqrt(3), 0))
+	XCTassert(pCoeff[3]! == (1, 0))
 
 	print("Test2")
 
@@ -77,11 +77,11 @@ func testPolynomial() {
 
 	pCoeff = p.coefficients
 
-	assert(pCoeff[0]! == (Float(3)*sqrt(3)/4, -9/Float(4)*sqrt(3)))
-	assert(pCoeff[1]! == (Float(3)*sqrt(3)/4-1/4, -3/4))
-	assert(pCoeff[2]! == (-Float(3)*sqrt(3)-1/4, Float(9)*sqrt(3)))
-	assert(pCoeff[3]! == (-Float(3)*sqrt(3)+1, -3))
-	assert(pCoeff[4]! == (1, 0))
+	XCTassert(pCoeff[0]! == (Float(3)*sqrt(3)/4, -9/Float(4)*sqrt(3)))
+	XCTassert(pCoeff[1]! == (Float(3)*sqrt(3)/4-1/4, -3/4))
+	XCTassert(pCoeff[2]! == (-Float(3)*sqrt(3)-1/4, Float(9)*sqrt(3)))
+	XCTassert(pCoeff[3]! == (-Float(3)*sqrt(3)+1, -3))
+	XCTassert(pCoeff[4]! == (1, 0))
 
 	print("test 3")
 
@@ -96,12 +96,12 @@ func testPolynomial() {
 	p.multiplyPolynomial(q)
 	pCoeff = p.coefficients
 
-	assert(pCoeff[0]! == (0, 0))
-	assert(pCoeff[1]! == (Float(3)*sqrt(3)/4, -9/Float(4)*sqrt(3)))
-	assert(pCoeff[2]! == (Float(3)*sqrt(3)/4-1/4, -3/4))
-	assert(pCoeff[3]! == (-Float(3)*sqrt(3)-1/4, Float(9)*sqrt(3)))
-	assert(pCoeff[4]! == (-Float(3)*sqrt(3)+1, -3))
-	assert(pCoeff[5]! == (1, 0))
+	XCTassert(pCoeff[0]! == (0, 0))
+	XCTassert(pCoeff[1]! == (Float(3)*sqrt(3)/4, -9/Float(4)*sqrt(3)))
+	XCTassert(pCoeff[2]! == (Float(3)*sqrt(3)/4-1/4, -3/4))
+	XCTassert(pCoeff[3]! == (-Float(3)*sqrt(3)-1/4, Float(9)*sqrt(3)))
+	XCTassert(pCoeff[4]! == (-Float(3)*sqrt(3)+1, -3))
+	XCTassert(pCoeff[5]! == (1, 0))
 
 	print("test4")
 }

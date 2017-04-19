@@ -47,7 +47,14 @@ class ViewController: UIViewController {
 
     
     func touchInput(gestureRecognizer: UITapGestureRecognizer) {
-        let loc = gestureRecognizer.location(in: self.view)
+        let touched = gestureRecognizer.location(in: self.view)
+        
+        print(touched)
+        
+        // rounding
+        let loc = graphBrain.roundedLoc(touched)
+        
+        print(loc)
         
         if zeroEnabled {
             graph?.points.append(GraphView.Point.Zero(loc))
