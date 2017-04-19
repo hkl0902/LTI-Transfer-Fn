@@ -20,7 +20,7 @@ class GraphView: UIView {
     var xAxis: UIBezierPath?
     var unitCircle: UIBezierPath?
     
-    var points: [Point]? {
+    var points: [Point] = [] {
         didSet {
             self.setNeedsDisplay()
         }
@@ -45,19 +45,18 @@ class GraphView: UIView {
     
     private func drawPoints() {
         UIColor.black.setStroke()
-        guard let points = points else { return }
         for point in points {
             switch point {
-            case .Pole(let pole):
+            case Point.Pole(let pole):
                 drawPole(center: pole)
-            case .Zero(let zero):
+            case Point.Zero(let zero):
                 drawZero(center: zero)
             }
         }
     }
     
     private func clearPoints() {
-        points?.removeAll()
+        points.removeAll()
         
     }
     

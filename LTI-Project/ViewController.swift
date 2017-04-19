@@ -45,11 +45,12 @@ class ViewController: UIViewController {
     
     func touchInput(gestureRecognizer: UITapGestureRecognizer) {
         let loc = gestureRecognizer.location(in: self.view)
+        
         if zeroEnabled {
-            graph?.drawZero(center: loc)
+            graph?.points.append(GraphView.Point.Zero(loc))
             graphBrain.addZero(zero: loc)
         } else {
-            graph?.drawPole(center: loc)
+            graph?.points.append(GraphView.Point.Pole(loc))
             graphBrain.addPole(pole: loc)
         }
         
