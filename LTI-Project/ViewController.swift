@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     var addZeroButton: UIBarButtonItem?
     var addPoleButton: UIBarButtonItem?
+    var solveButton: UIBarButtonItem?
     
     var poleEnabled = false
     var zeroEnabled = true
@@ -25,9 +26,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.addZeroButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(ViewController.enableZero))
-        self.addPoleButton = UIBarButtonItem(barButtonSystemItem: .undo, target: self, action: #selector(ViewController.enablePole))
+        self.addZeroButton = UIBarButtonItem(title: "Zero", style: .plain, target: self, action: #selector(ViewController.enableZero))
+        self.addPoleButton = UIBarButtonItem(title: "Pole", style: .plain, target: self, action: #selector(ViewController.enablePole))
+        self.solveButton = UIBarButtonItem(title: "Solve", style: .done, target: self, action: #selector(ViewController.solve))
         self.navigationItem.leftBarButtonItems = [addZeroButton!, addPoleButton!]
+        self.navigationItem.rightBarButtonItems = [solveButton!]
         let tapGestureRecgonizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.touchInput(gestureRecognizer:)))
         self.view.addGestureRecognizer(tapGestureRecgonizer)
     }
@@ -53,9 +56,11 @@ class ViewController: UIViewController {
             graph?.points.append(GraphView.Point.Pole(loc))
             graphBrain.addPole(pole: loc)
         }
-        
-        
-        
+    }
+    
+    func solve() {
+        let solver = SolverViewController()
+        self.navigationController?.pushViewController(solver, animated: true)
     }
     
     override func viewWillLayoutSubviews() {
@@ -67,7 +72,6 @@ class ViewController: UIViewController {
         graph?.setNeedsDisplay()
     }
     
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
