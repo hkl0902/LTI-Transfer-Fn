@@ -52,9 +52,15 @@ class ViewController: UIViewController {
         if zeroEnabled {
             graph?.points.append(GraphView.Point.Zero(loc))
             graphBrain.addZero(zero: loc)
+            guard let conjugate = graphBrain.getConjugate(loc) else { return }
+            graph?.points.append(GraphView.Point.Zero(conjugate))
+            graphBrain.addZero(zero: conjugate)
         } else {
             graph?.points.append(GraphView.Point.Pole(loc))
             graphBrain.addPole(pole: loc)
+            guard let conjugate = graphBrain.getConjugate(loc) else { return }
+            graph?.points.append(GraphView.Point.Pole(conjugate))
+            graphBrain.addPole(pole: conjugate)
         }
     }
     
