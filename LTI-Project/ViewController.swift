@@ -73,8 +73,22 @@ class ViewController: UIViewController {
     
     func solve() {
         let solver = SolverViewController()
-        solver.points = (graph?.points)!        // todo
-        self.navigationController?.pushViewController(solver, animated: true)
+        var points: [GraphView.Point] = [] // Convert all points to graphView Coordinates
+        if let graphPoints = graph?.points {
+            for point in graphPoints {
+                switch point {
+                case .Zero(let zero):
+                    let convertedPoint = GraphView.Point.Zero(graphBrain.getGraphPoint(zero))
+                    points.append(convertedPoint)
+                case .Pole(let pole):
+                    let convertedPoint = GraphView.Point.Pole(graphBrain.getGraphPoint(pole))
+                    points.append(convertedPoint)
+                }
+                
+            }
+            solver.points = points        // todo
+            self.navigationController?.pushViewController(solver, animated: true)
+        }
     }
     
     override func viewWillLayoutSubviews() {
