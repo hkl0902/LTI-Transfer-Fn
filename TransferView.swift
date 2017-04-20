@@ -14,6 +14,8 @@ class TransferView: UIView {
 
     var yAxis: UIBezierPath?
     var xAxis: UIBezierPath?
+    var navigationHeight: CGFloat = 0
+    var xAxisHeight: CGFloat = 20
     var pointsToDraw = [CGPoint]() {
         didSet {
             setNeedsDisplay()
@@ -29,30 +31,33 @@ class TransferView: UIView {
         drawPoints(scaledPoints)
     }
     
+    // points in ViewCoordinates
+    // larger value means higher up on the screen (not higher down)
     private func scale(_ points: [CGPoint]) -> [CGPoint] {
         var scaledPoints = [CGPoint]()
-        let maxY = self.bounds.maxY
-        let yAxis = maxY-20+10
+        let maxY = self.bounds.maxY - navigationHeight
+        //let xAxis = maxY-20
         let yPoints = points.map() {
             return Float($0.y)
         }
         let minimum = CGFloat(yPoints.reduce(yPoints[0]) {
             return min($0, $1)
-        }) + yAxis
+        })
         
         let maximum = CGFloat(yPoints.reduce(yPoints[0]) {
             return max($0, $1)
         })
+        // remember than if my y is large => i have to scale it to be small
         if minimum < 0 {
             for p in points {
-                var scaledY = p.y + CGFloat(minimum)
-                scaledY = scaledY*CGFloat(maxY/CGFloat((maximum+minimum)))
+                var scaledY = p.y - CGFloat(minimum) + xAxisHeight// shift all points up
+                scaledY = scaledY*CGFloat(maxY/CGFloat((maximum-minimum + xAxisHeight)))
                 scaledPoints.append(CGPoint(x: p.x, y: scaledY))
             }
         } else {
             for p in points {
-                var scaledY = p.y
-                scaledY = scaledY*CGFloat(maxY/CGFloat((maximum)))
+                var scaledY = p.y + xAxisHeight
+                scaledY = scaledY*CGFloat(maxY/CGFloat((maximum + xAxisHeight)))
                 scaledPoints.append(CGPoint(x: p.x, y: scaledY))
             }
         }
@@ -66,8 +71,8 @@ class TransferView: UIView {
         let midX = self.bounds.midX
         let maxY = self.bounds.maxY
         xAxis = UIBezierPath()
-        xAxis?.move(to: CGPoint(x: minX, y: maxY-20))
-        xAxis?.addLine(to: CGPoint(x: maxX, y: maxY-20))
+        xAxis?.move(to: CGPoint(x: minX, y: maxY-xAxisHeight))
+        xAxis?.addLine(to: CGPoint(x: maxX, y: maxY-xAxisHeight))
         UIColor.black.setFill()
         UIColor.black.setStroke()
         xAxis?.lineWidth = 1
@@ -77,23 +82,23 @@ class TransferView: UIView {
         
         // Draw tick marks
         
-        xAxis?.move(to: CGPoint(x: 0, y: maxY-20+10))
-        xAxis?.addLine(to: CGPoint(x: 0, y: maxY-20-10))
+        xAxis?.move(to: CGPoint(x: 0, y: maxY-xAxisHeight+10))
+        xAxis?.addLine(to: CGPoint(x: 0, y: maxY-xAxisHeight-10))
         xAxis?.stroke()
         xAxis?.close()
         
-        xAxis?.move(to: CGPoint(x: midX/2, y: maxY-20+10))
-        xAxis?.addLine(to: CGPoint(x: midX/2, y: maxY-20-10))
+        xAxis?.move(to: CGPoint(x: midX/2, y: maxY-xAxisHeight+10))
+        xAxis?.addLine(to: CGPoint(x: midX/2, y: maxY-xAxisHeight-10))
         xAxis?.stroke()
         xAxis?.close()
 
-        xAxis?.move(to: CGPoint(x: midX*3/2, y: maxY-20+10))
-        xAxis?.addLine(to: CGPoint(x: midX*3/2, y: maxY-20-10))
+        xAxis?.move(to: CGPoint(x: midX*3/2, y: maxY-xAxisHeight+10))
+        xAxis?.addLine(to: CGPoint(x: midX*3/2, y: maxY-xAxisHeight-10))
         xAxis?.stroke()
         xAxis?.close()
         
-        xAxis?.move(to: CGPoint(x: midX*2, y: maxY-20+10))
-        xAxis?.addLine(to: CGPoint(x: midX*2, y: maxY-20-10))
+        xAxis?.move(to: CGPoint(x: midX*2, y: maxY-xAxisHeight+10))
+        xAxis?.addLine(to: CGPoint(x: midX*2, y: maxY-xAxisHeight-10))
 
         xAxis?.stroke()
         xAxis?.close()

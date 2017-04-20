@@ -89,6 +89,7 @@ class ViewController: UIViewController {
     
     override func viewWillLayoutSubviews() {
         self.view.backgroundColor = .white
+        print(self.view.frame)
         graph = GraphView(frame: self.view.bounds)
         graphBrain.view = self.view
         // set radius

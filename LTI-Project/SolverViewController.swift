@@ -38,7 +38,7 @@ class SolverViewController: UIViewController {
 
     func showGraph() {
         let transferGraph = TransferGraphViewController()
-        transferGraph.points = points
+        transferGraph.points = points   // these points arne't in graphView but are inverted in ViewCoordinates
         self.navigationController?.pushViewController(transferGraph, animated: true)
     }
     

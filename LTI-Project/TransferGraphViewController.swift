@@ -30,8 +30,9 @@ class TransferGraphViewController: UIViewController {
         self.view.addSubview(transferView!)
         transferView?.backgroundColor = .white
         calculator.roots = points
-        calculator.maxX = self.view.frame.maxX// because we're landscape
+        calculator.maxX = self.view.frame.maxX
         calculator.midX = self.view.frame.maxX/2
+        transferView?.navigationHeight = (self.navigationController?.navigationBar.frame.height) ?? 0
         transferView?.pointsToDraw = calculator.getPoints()
         
     }
@@ -82,11 +83,11 @@ class HeuristicCalculator {
             case .Zero(let zero):
                 let dx = unitCirclePoint.x - zero.x
                 let dy = unitCirclePoint.y - zero.y
-                heuristic -= (dx*dx)*dx*dx + dy*dy*dy*dy
+                heuristic -= 1/((dx*dx)*dx*dx + dy*dy*dy*dy+0.001)
             case .Pole(let pole):
                 let dx = unitCirclePoint.x - pole.x
                 let dy = unitCirclePoint.y - pole.y
-                heuristic += dx*dx*dx*dx + dy*dy*dy*dy
+                heuristic += 1/(dx*dx*dx*dx + dy*dy*dy*dy+0.001)
             }
         }
         return heuristic
