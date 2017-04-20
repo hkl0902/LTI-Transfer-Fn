@@ -12,7 +12,7 @@ class SolverViewController: UIViewController {
 
     var solverView: SolverView?
     
-    var points: [GraphView.Point] = []
+    var points: [GraphView.Point] = [] // in GraphView Coordinates
     
     var textView: UITextView!
     
@@ -38,6 +38,7 @@ class SolverViewController: UIViewController {
 
     func showGraph() {
         let transferGraph = TransferGraphViewController()
+        transferGraph.points = points
         self.navigationController?.pushViewController(transferGraph, animated: true)
     }
     

@@ -7,16 +7,56 @@
 //
 
 import UIKit
+import Darwin
+import Foundation
 
 class TransferView: UIView {
 
     var yAxis: UIBezierPath?
     var xAxis: UIBezierPath?
+    var pointsToDraw = [CGPoint]() {
+        didSet {
+            setNeedsDisplay()
+        }
+    }// points should be ordered by x value and should be of ViewPoint
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
     override func draw(_ rect: CGRect) {
         drawYAxis()
         drawXAxis()
+        //pointsToDraw = [ CGPoint(x: 0, y: 0), CGPoint(x: 50, y:100), CGPoint(x: 100, y:75), CGPoint(x: 150, y:400)]
+        let scaledPoints = scale(pointsToDraw)
+        drawPoints(scaledPoints)
+    }
+    
+    private func scale(_ points: [CGPoint]) -> [CGPoint] {
+        var scaledPoints = [CGPoint]()
+        let maxY = self.bounds.maxY
+        let yAxis = maxY-20+10
+        let yPoints = points.map() {
+            return Float($0.y)
+        }
+        let minimum = CGFloat(yPoints.reduce(yPoints[0]) {
+            return min($0, $1)
+        }) + yAxis
+        
+        let maximum = CGFloat(yPoints.reduce(yPoints[0]) {
+            return max($0, $1)
+        })
+        if minimum < 0 {
+            for p in points {
+                var scaledY = p.y + CGFloat(minimum)
+                scaledY = scaledY*CGFloat(maxY/CGFloat((maximum+minimum)))
+                scaledPoints.append(CGPoint(x: p.x, y: scaledY))
+            }
+        } else {
+            for p in points {
+                var scaledY = p.y
+                scaledY = scaledY*CGFloat(maxY/CGFloat((maximum)))
+                scaledPoints.append(CGPoint(x: p.x, y: scaledY))
+            }
+        }
+        return scaledPoints
     }
     
     private func drawXAxis() {
@@ -75,7 +115,28 @@ class TransferView: UIView {
     }
     
     func drawPoints(_ points: [CGPoint]) {
-        
+        let transferFnPath = UIBezierPath()
+        var prevPoint1: CGPoint?
+        var prevPoint2: CGPoint?
+        for point in points {
+            if let prevP = prevPoint1 {
+                if let prevP2 = prevPoint2 {
+                    transferFnPath.addCurve(to: point, controlPoint1: prevP, controlPoint2: prevP2)
+                    prevPoint1 = prevPoint2
+                    prevPoint2 = point
+                } else {
+                    prevPoint2 = point
+                }
+            } else {
+                transferFnPath.move(to: point)
+                prevPoint1 = point
+            }
+        }
+        if points.count > 0 {
+            UIColor.blue.setStroke()
+            transferFnPath.stroke()
+            transferFnPath.close()
+        }
     }
 
 }
