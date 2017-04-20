@@ -19,6 +19,8 @@
 		47377A951EA7F37700912776 /* SolverBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47377A921EA7F37700912776 /* SolverBrain.swift */; };
 		47377A961EA7F37700912776 /* SolverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47377A931EA7F37700912776 /* SolverViewController.swift */; };
 		47377A971EA7F37700912776 /* SolverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47377A941EA7F37700912776 /* SolverView.swift */; };
+		479818431EA8436C00A4CBDA /* TransferGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479818421EA8436C00A4CBDA /* TransferGraphViewController.swift */; };
+		479818451EA8437700A4CBDA /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479818441EA8437700A4CBDA /* TransferView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		47377A921EA7F37700912776 /* SolverBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolverBrain.swift; path = "LTI-Project/SolverBrain.swift"; sourceTree = "<group>"; };
 		47377A931EA7F37700912776 /* SolverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolverViewController.swift; path = "LTI-Project/SolverViewController.swift"; sourceTree = "<group>"; };
 		47377A941EA7F37700912776 /* SolverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SolverView.swift; path = "LTI-Project/SolverView.swift"; sourceTree = "<group>"; };
+		479818421EA8436C00A4CBDA /* TransferGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransferGraphViewController.swift; path = "LTI-Project/TransferGraphViewController.swift"; sourceTree = "<group>"; };
+		479818441EA8437700A4CBDA /* TransferView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
 		47A126E81EA12C6600C72EC7 /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CorePlot.framework; path = "Pods/../build/Debug-iphoneos/CorePlot/CorePlot.framework"; sourceTree = "<group>"; };
 		47D6AAC71EA079AE0075C256 /* SwiftCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftCharts.framework; path = "../../Library/Developer/Xcode/DerivedData/LTI-Project-chvgpcmslponawbtjezgbhdgtwai/Build/Products/Debug-iphonesimulator/SwiftCharts/SwiftCharts.framework"; sourceTree = "<group>"; };
 		47D6AAC91EA07D120075C256 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../Library/Developer/Xcode/DerivedData/LTI-Project-chvgpcmslponawbtjezgbhdgtwai/Build/Products/Debug-iphonesimulator/Charts/Charts.framework"; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 		472069A01EA6F8FF00D6CC86 /* LTI-Project */ = {
 			isa = PBXGroup;
 			children = (
+				479818421EA8436C00A4CBDA /* TransferGraphViewController.swift */,
+				479818441EA8437700A4CBDA /* TransferView.swift */,
 				47377A981EA7F37D00912776 /* Solver */,
 				472069A21EA6FA5C00D6CC86 /* Base.lproj */,
 				47D282B01EA7DC1E008D3AA5 /* Graph */,
@@ -374,11 +380,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				472069AD1EA6FA5C00D6CC86 /* AppDelegate.swift in Sources */,
+				479818451EA8437700A4CBDA /* TransferView.swift in Sources */,
 				47377A961EA7F37700912776 /* SolverViewController.swift in Sources */,
 				47377A951EA7F37700912776 /* SolverBrain.swift in Sources */,
 				472069AA1EA6FA5C00D6CC86 /* ViewController.swift in Sources */,
 				47377A971EA7F37700912776 /* SolverView.swift in Sources */,
 				472069AB1EA6FA5C00D6CC86 /* GraphBrain.swift in Sources */,
+				479818431EA8436C00A4CBDA /* TransferGraphViewController.swift in Sources */,
 				472069AE1EA6FA5C00D6CC86 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

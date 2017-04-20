@@ -18,6 +18,8 @@ class SolverViewController: UIViewController {
     
     var brain = Solver()
     
+    var showGraphButton: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         solverView = SolverView(frame: self.view.frame)
@@ -30,7 +32,13 @@ class SolverViewController: UIViewController {
         brain.transferFunction()
         let (xStr, yStr) = brain.getDifferenceEquation()
         textView.text = xStr + " = " + yStr
-        
+        showGraphButton  = UIBarButtonItem(title: "Transfer Graph", style: .plain, target: self, action: #selector(SolverViewController.showGraph))
+        self.navigationItem.rightBarButtonItems = [showGraphButton]
+    }
+
+    func showGraph() {
+        let transferGraph = TransferGraphViewController()
+        self.navigationController?.pushViewController(transferGraph, animated: true)
     }
     
     override func viewWillLayoutSubviews() {
