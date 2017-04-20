@@ -66,10 +66,20 @@ class Solver {
         var strRepr = ""
         for power in sortedKeys {
             if let coeff = polynomial.coefficients[power] {
-                strRepr += "\(coeff.0)\(variable)[n + (\(power))] +"
+                if coeff.0 != 0 {
+                    strRepr += " \(coeff.0)\(variable)[n"
+                    if power < 0 {
+                        strRepr += " - \(power)] +"
+                    } else if power > 0 {
+                        strRepr += " + \(power)] +"
+                    } else {
+                        strRepr += "] +"
+                    }
+                }
             }
         }
         strRepr.remove(at: strRepr.index(before: strRepr.endIndex))
+        strRepr.remove(at: strRepr.startIndex)
         return strRepr
     }
 }
