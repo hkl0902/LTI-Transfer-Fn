@@ -12,8 +12,8 @@ import Darwin
 
 class GraphBrain {
     
-    static let MAX_Y: CGFloat = 5
-    static let MAX_X: CGFloat = 10
+    static let MAX_Y: CGFloat = 3
+    static let MAX_X: CGFloat = 3
     static let ROUND_TO: CGFloat = 10 // must be less than 1
     
     // All the poles and zeros (properly centered)
@@ -73,16 +73,16 @@ class GraphBrain {
         var roundedX = round(point.x/GraphBrain.ROUND_TO) * GraphBrain.ROUND_TO
         var roundedY = round(point.y/GraphBrain.ROUND_TO) * GraphBrain.ROUND_TO
         
-        if abs(roundedX - midX) < 10 {
+        if abs(roundedX - midX) < 5 {
             roundedX = midX
         }
-        if abs(roundedY - midY) < 10 {
+        if abs(roundedY - midY) < 5 {
             roundedY = midY
         }
         
         // Check if near unit circle by distance
         let graphPoint = getGraphPoint(CGPoint(x: roundedX, y: roundedY))
-        if abs(graphPoint.x*graphPoint.x + graphPoint.y*graphPoint.y - 1) < 0.5 {
+        if abs(graphPoint.x*graphPoint.x + graphPoint.y*graphPoint.y - 1) < 0.08 {
             let angle0 = self.getViewPoint(CGPoint(x: 1, y: 0))
             let radius = angle0.x - midX
             var angle = 0.0
