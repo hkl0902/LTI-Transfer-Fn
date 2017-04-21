@@ -36,9 +36,9 @@ class ViewController: UIViewController {
         
         // Some Demo Items
         
-        self.demoButtons.append(UIBarButtonItem(title: "1", style: .plain, target: self, action: #selector(ViewController.demo1)))
+        self.demoButtons.append(UIBarButtonItem(title: "3", style: .plain, target: self, action: #selector(ViewController.demo3)))
         self.demoButtons.append(UIBarButtonItem(title: "2", style: .plain, target: self, action: #selector(ViewController.demo2)))
-        self.demoButtons.append(UIBarButtonItem(title: "2", style: .plain, target: self, action: #selector(ViewController.demo3)))
+        self.demoButtons.append(UIBarButtonItem(title: "1", style: .plain, target: self, action: #selector(ViewController.demo1)))
         
         //
         
@@ -77,6 +77,15 @@ class ViewController: UIViewController {
     
     func demo1() {
         clearPoints()
+        zeroEnabled = true
+        var point = CGPoint(x: -1, y: 0.5)
+        addPoint(graphBrain.getViewPoint(point))
+        point = CGPoint(x: 1, y: 0)
+        addPoint(graphBrain.getViewPoint(point))
+        zeroEnabled = false
+        poleEnabled = true
+        point = CGPoint(x: 0.2, y: 0)
+        addPoint(graphBrain.getViewPoint(point))
     }
     
     func demo2() {
