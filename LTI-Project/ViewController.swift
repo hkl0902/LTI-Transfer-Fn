@@ -90,10 +90,39 @@ class ViewController: UIViewController {
     
     func demo2() {
         clearPoints()
+        zeroEnabled = true
+        var point = CGPoint(x: -1, y: 0.5)
+        addPoint(graphBrain.getViewPoint(point))
+        point = CGPoint(x: 1, y: 0)
+        addPoint(graphBrain.getViewPoint(point))
+        zeroEnabled = false
+        poleEnabled = true
+        point = CGPoint(x: 0.2, y: 0)
+        addPoint(graphBrain.getViewPoint(point))
+        point = CGPoint(x: 0.5, y: 1)
+        addPoint(graphBrain.getViewPoint(point))
     }
     
     func demo3() {
         clearPoints()
+        zeroEnabled = true
+        var point = CGPoint(x: -1, y: 0.5)
+        addPoint(graphBrain.getViewPoint(point))
+        point = CGPoint(x: 1, y: 0)
+        addPoint(graphBrain.getViewPoint(point))
+        point = CGPoint(x: 1, y: 0.2)
+        addPoint(graphBrain.getViewPoint(point))
+        point = CGPoint(x: -0.4, y: 0.4)
+        addPoint(graphBrain.getViewPoint(point))
+        zeroEnabled = false
+        poleEnabled = true
+        point = CGPoint(x: 0.2, y: 0)
+        addPoint(graphBrain.getViewPoint(point))
+        point = CGPoint(x: 0.5, y: 1)
+        addPoint(graphBrain.getViewPoint(point))
+        point = CGPoint(x: 0.7, y: 1.7)
+        addPoint(graphBrain.getViewPoint(point))
+        
     }
     
     func addPoint(_ loc: CGPoint) {
