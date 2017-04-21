@@ -86,14 +86,8 @@ class ViewController: UIViewController {
     func demo3() {
         clearPoints()
     }
-
     
-    func touchInput(gestureRecognizer: UITapGestureRecognizer) {
-        let touched = gestureRecognizer.location(in: self.view)
-        
-        // rounding
-        let loc = graphBrain.roundedLoc(touched)
-        
+    func addPoint(_ loc: CGPoint) {
         if zeroEnabled {
             graph?.points.append(GraphView.Point.Zero(loc))
             graphBrain.addZero(zero: loc)
@@ -107,6 +101,16 @@ class ViewController: UIViewController {
             graph?.points.append(GraphView.Point.Pole(conjugate))
             graphBrain.addPole(pole: conjugate)
         }
+    }
+
+    
+    func touchInput(gestureRecognizer: UITapGestureRecognizer) {
+        let touched = gestureRecognizer.location(in: self.view)
+        
+        // rounding
+        let loc = graphBrain.roundedLoc(touched)
+        
+        addPoint(loc)
     }
     
     func solve() {
