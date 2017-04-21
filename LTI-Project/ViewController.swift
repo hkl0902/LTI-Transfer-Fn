@@ -46,11 +46,22 @@ class ViewController: UIViewController {
     func enableZero() {
         zeroEnabled = true
         poleEnabled = false
+        updateButtons()
     }
     
     func enablePole() {
         poleEnabled = true
         zeroEnabled = false
+        updateButtons()
+    }
+    
+    func updateButtons() {
+        if zeroEnabled {
+            self.addZeroButton?.tintColor = .gray
+        }
+        if poleEnabled {
+            self.addPoleButton?.tintColor = .gray
+        }
     }
 
     
