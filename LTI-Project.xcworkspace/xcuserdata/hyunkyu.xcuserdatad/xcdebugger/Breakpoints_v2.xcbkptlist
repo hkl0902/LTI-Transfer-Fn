@@ -47,7 +47,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "58"
             endingLineNumber = "58"
-            landmarkName = "touchInput(gestureRecognizer:)"
+            landmarkName = "enableZero()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -63,7 +63,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "80"
             endingLineNumber = "80"
-            landmarkName = "solve()"
+            landmarkName = "demo2()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

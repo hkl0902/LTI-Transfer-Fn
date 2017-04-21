@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     var solveButton: UIBarButtonItem?
     var clearButton: UIBarButtonItem?
     
+    var demoButtons: [UIBarButtonItem] = [UIBarButtonItem]()
+    
     var poleEnabled = false
     var zeroEnabled = true
     
@@ -31,8 +33,17 @@ class ViewController: UIViewController {
         self.addPoleButton = UIBarButtonItem(title: "Pole", style: .plain, target: self, action: #selector(ViewController.enablePole))
         self.solveButton = UIBarButtonItem(title: "Solve", style: .done, target: self, action: #selector(ViewController.solve))
         self.clearButton = UIBarButtonItem(title: "Clear", style: .done, target: self, action: #selector(ViewController.clearPoints))
+        
+        // Some Demo Items
+        
+        self.demoButtons.append(UIBarButtonItem(title: "1", style: .plain, target: self, action: #selector(ViewController.demo1)))
+        self.demoButtons.append(UIBarButtonItem(title: "2", style: .plain, target: self, action: #selector(ViewController.demo2)))
+        self.demoButtons.append(UIBarButtonItem(title: "2", style: .plain, target: self, action: #selector(ViewController.demo3)))
+        
+        //
+        
         self.navigationItem.leftBarButtonItems = [addZeroButton!, addPoleButton!]
-        self.navigationItem.rightBarButtonItems = [solveButton!, clearButton!]
+        self.navigationItem.rightBarButtonItems = [solveButton!, clearButton!] + self.demoButtons
         let tapGestureRecgonizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.touchInput(gestureRecognizer:)))
         self.view.addGestureRecognizer(tapGestureRecgonizer)
     }
@@ -62,6 +73,18 @@ class ViewController: UIViewController {
         if poleEnabled {
             self.addPoleButton?.tintColor = .gray
         }
+    }
+    
+    func demo1() {
+        clearPoints()
+    }
+    
+    func demo2() {
+        clearPoints()
+    }
+    
+    func demo3() {
+        clearPoints()
     }
 
     
