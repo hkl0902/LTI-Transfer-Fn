@@ -59,14 +59,16 @@ class HeuristicCalculator {
     func getPoints() -> [CGPoint] { // Returns points to draw on the transfer graph
         // first make some heuristic
         var pointsToDraw = [CGPoint]()
+        let increment = CGFloat.pi*2.0/CGFloat(N) // move forward by this much
         for i in 0..<Int(N) {
-            let p = CGPoint(x: cos(CGFloat.pi*2.0/CGFloat(N)*CGFloat(i)), y: sin(CGFloat.pi*2/CGFloat(N)*CGFloat(i)))
+            let angle = -CGFloat.pi + increment*CGFloat(i) // [-pi, pi]
+            let p = CGPoint(x: cos(angle), y: sin(angle))
             unitCirclePoints.append(p)
         }
         
         for i in 0..<Int(N) {
             // create points in view Coordinates
-            let x = (maxX/N*CGFloat(i))
+            let x = (maxX/N*CGFloat(i)) // I'm finding this wrong. I'm going around the unit circle from 0 -> 2pi  but I'm treating it as if I'm going from -pi to pi
             let y = findHeuristic(from: unitCirclePoints[i])
             pointsToDraw.append(CGPoint(x: x, y: y))
             
@@ -83,11 +85,11 @@ class HeuristicCalculator {
             case .Zero(let zero):
                 let dx = unitCirclePoint.x - zero.x
                 let dy = unitCirclePoint.y - zero.y
-                heuristic -= 1/((dx*dx)*dx*dx + dy*dy*dy*dy+0.001)
+                heuristic += 10/(dx*dx + dy*dy+0.1) // bring it down
             case .Pole(let pole):
                 let dx = unitCirclePoint.x - pole.x
                 let dy = unitCirclePoint.y - pole.y
-                heuristic += 1/(dx*dx*dx*dx + dy*dy*dy*dy+0.001)
+                heuristic -= 10/(dx*dx + dy*dy+0.01) // bring it up
             }
         }
         return heuristic

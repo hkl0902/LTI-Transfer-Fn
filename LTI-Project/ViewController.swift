@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     var addZeroButton: UIBarButtonItem?
     var addPoleButton: UIBarButtonItem?
     var solveButton: UIBarButtonItem?
+    var clearButton: UIBarButtonItem?
     
     var poleEnabled = false
     var zeroEnabled = true
@@ -29,10 +30,17 @@ class ViewController: UIViewController {
         self.addZeroButton = UIBarButtonItem(title: "Zero", style: .plain, target: self, action: #selector(ViewController.enableZero))
         self.addPoleButton = UIBarButtonItem(title: "Pole", style: .plain, target: self, action: #selector(ViewController.enablePole))
         self.solveButton = UIBarButtonItem(title: "Solve", style: .done, target: self, action: #selector(ViewController.solve))
+        self.clearButton = UIBarButtonItem(title: "Clear", style: .done, target: self, action: #selector(ViewController.clearPoints))
         self.navigationItem.leftBarButtonItems = [addZeroButton!, addPoleButton!]
-        self.navigationItem.rightBarButtonItems = [solveButton!]
+        self.navigationItem.rightBarButtonItems = [solveButton!, clearButton!]
         let tapGestureRecgonizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.touchInput(gestureRecognizer:)))
         self.view.addGestureRecognizer(tapGestureRecgonizer)
+    }
+    
+    func clearPoints() {
+        self.graph?.points.removeAll()
+        self.graphBrain.poles.removeAll()
+        self.graphBrain.zeros.removeAll()
     }
     
     func enableZero() {

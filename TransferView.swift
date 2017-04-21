@@ -32,34 +32,32 @@ class TransferView: UIView {
     }
     
     // points in ViewCoordinates
-    // larger value means higher up on the screen (not higher down)
+    // larger value means higher down :) 
+    // I want the largest values to at most be maxY - xAxis and I want to minimum values to be at least navigation Height
     private func scale(_ points: [CGPoint]) -> [CGPoint] {
         var scaledPoints = [CGPoint]()
-        let maxY = self.bounds.maxY - navigationHeight
+        let maxY = self.bounds.maxY - xAxisHeight
+        let minY = navigationHeight
         //let xAxis = maxY-20
         let yPoints = points.map() {
             return Float($0.y)
         }
-        let minimum = CGFloat(yPoints.reduce(yPoints[0]) {
+        var minimum = CGFloat(yPoints.reduce(yPoints[0]) {
             return min($0, $1)
         })
         
-        let maximum = CGFloat(yPoints.reduce(yPoints[0]) {
+        var maximum = CGFloat(yPoints.reduce(yPoints[0]) {
             return max($0, $1)
         })
         // remember than if my y is large => i have to scale it to be small
         if minimum < 0 {
-            for p in points {
-                var scaledY = p.y - CGFloat(minimum) + xAxisHeight// shift all points up
-                scaledY = scaledY*CGFloat(maxY/CGFloat((maximum-minimum + xAxisHeight)))
-                scaledPoints.append(CGPoint(x: p.x, y: scaledY))
-            }
-        } else {
-            for p in points {
-                var scaledY = p.y + xAxisHeight
-                scaledY = scaledY*CGFloat(maxY/CGFloat((maximum + xAxisHeight)))
-                scaledPoints.append(CGPoint(x: p.x, y: scaledY))
-            }
+            minimum = -minimum
+        }
+        
+        for p in points {
+            var scaledY = p.y + minimum + minY
+            scaledY = scaledY * CGFloat(maxY/(maximum + minimum + minY))
+            scaledPoints.append(CGPoint(x: p.x, y: scaledY))
         }
         return scaledPoints
     }
