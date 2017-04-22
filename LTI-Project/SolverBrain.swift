@@ -67,7 +67,8 @@ class Solver {
         for power in sortedKeys {
             if let coeff = polynomial.coefficients[power] {
                 if coeff.0 != 0 {
-                    strRepr += " \(coeff.0)\(variable)[n"
+                    let coeffVal = String.localizedStringWithFormat("%.2f", coeff.0)
+                    strRepr += " \(coeffVal)\(variable)[n"
                     if power < 0 {
                         strRepr += " - \(power)] +"
                     } else if power > 0 {

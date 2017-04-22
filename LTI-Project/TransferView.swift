@@ -46,7 +46,7 @@ class TransferView: UIView {
             return min($0, $1)
         })
         
-        var maximum = CGFloat(yPoints.reduce(yPoints[0]) {
+        let maximum = CGFloat(yPoints.reduce(yPoints[0]) {
             return max($0, $1)
         })
         // remember than if my y is large => i have to scale it to be small
@@ -63,7 +63,7 @@ class TransferView: UIView {
     }
     
     private func drawXAxis() {
-        let midY = self.bounds.midY
+
         let maxX = self.bounds.maxX
         let minX = self.bounds.minX
         let midX = self.bounds.midX
