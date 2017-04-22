@@ -33,6 +33,16 @@ class SolverViewController: UIViewController {
         let (xStr, yStr) = brain.getDifferenceEquation()
         textView.text = xStr + " = " + yStr
         textView.font = textView.font?.withSize(20)
+        textView.text = textView.text + "\n"
+        
+        // Show the Transfer Function
+        let transferFn = brain.transferFunctionStr()
+        textView.text = textView.text + transferFn.0 + "\n"
+        textView.text = textView.text + transferFn.1
+        
+        
+        //
+        
         showGraphButton  = UIBarButtonItem(title: "Transfer Graph", style: .plain, target: self, action: #selector(SolverViewController.showGraph))
         self.navigationItem.rightBarButtonItems = [showGraphButton]
     }

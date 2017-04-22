@@ -56,12 +56,12 @@ class Solver {
     func getDifferenceEquation() -> (String, String) {
         // numerator gives coeff for x
         // denom gives coeff for y
-        let xStr = polyToString(polynomial: numeratorPolynomial, "x")
-        let yStr = polyToString(polynomial: denominatorPolynomial, "y")
+        let xStr = polyToSignal(polynomial: numeratorPolynomial, "x")
+        let yStr = polyToSignal(polynomial: denominatorPolynomial, "y")
         return (xStr, yStr)
     }
     
-    private func polyToString(polynomial: Polynomial, _ variable: Character) -> String {
+    private func polyToSignal(polynomial: Polynomial, _ variable: Character) -> String {
         let sortedKeys = Array(polynomial.coefficients.keys).sorted()
         var strRepr = ""
         for power in sortedKeys {
@@ -82,6 +82,10 @@ class Solver {
         strRepr.remove(at: strRepr.index(before: strRepr.endIndex))
         strRepr.remove(at: strRepr.startIndex)
         return strRepr
+    }
+    
+    func transferFunctionStr() -> (String, String) {
+        return (numeratorPolynomial.toString(), denominatorPolynomial.toString())
     }
 }
 
@@ -107,5 +111,19 @@ class Polynomial {
         }
         
         self.coefficients = newCoefficients
+    }
+    // only considers the real values
+    func toString() -> String {
+        let sortedPowers = Array(self.coefficients.keys).sorted()
+        
+        var strRepr = ""
+        for power in sortedPowers {
+            let coeffVal = String.localizedStringWithFormat("%.2f", (coefficients[power]?.0)!)
+            
+            strRepr += " \(coeffVal)" + "z^\(power)" + " +"
+        }
+        strRepr.remove(at: strRepr.index(before: strRepr.endIndex))
+        strRepr.remove(at: strRepr.startIndex)
+        return strRepr
     }
 }
