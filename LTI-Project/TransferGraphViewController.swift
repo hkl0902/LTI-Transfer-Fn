@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Darwin
 
 class TransferGraphViewController: UIViewController {
     
@@ -85,11 +86,17 @@ class HeuristicCalculator {
             case .Zero(let zero):
                 let dx = unitCirclePoint.x - zero.x
                 let dy = unitCirclePoint.y - zero.y
-                heuristic += 10/(dx*dx + dy*dy+0.1) // bring it down
+                let distance = pow(unitCirclePoint.x - zero.x, CGFloat(2)) + pow(unitCirclePoint.y - zero.y, CGFloat(2))
+                if distance < 1 {
+                    heuristic += 10/(dx*dx + dy*dy+0.1) // bring it down
+                }
             case .Pole(let pole):
                 let dx = unitCirclePoint.x - pole.x
                 let dy = unitCirclePoint.y - pole.y
-                heuristic -= 10/(dx*dx + dy*dy+0.01) // bring it up
+                let distance = pow(unitCirclePoint.x - pole.x, CGFloat(2)) + pow(unitCirclePoint.y - pole.y, CGFloat(2))
+                if distance < 1 {
+                    heuristic -= 10/(dx*dx + dy*dy+0.1) // bring it down
+                }
             }
         }
         return heuristic
