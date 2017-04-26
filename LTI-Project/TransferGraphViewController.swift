@@ -89,13 +89,17 @@ class HeuristicCalculator {
                 let distance = pow(unitCirclePoint.x - zero.x, CGFloat(2)) + pow(unitCirclePoint.y - zero.y, CGFloat(2))
                 if distance < 1 {
                     heuristic += 10/(dx*dx + dy*dy+0.1) // bring it down
+                } else {
+                    heuristic += (10/distance)/(dx*dx + dy*dy+0.1) // bring it down
                 }
             case .Pole(let pole):
                 let dx = unitCirclePoint.x - pole.x
                 let dy = unitCirclePoint.y - pole.y
                 let distance = pow(unitCirclePoint.x - pole.x, CGFloat(2)) + pow(unitCirclePoint.y - pole.y, CGFloat(2))
                 if distance < 1 {
-                    heuristic -= 10/(dx*dx + dy*dy+0.1) // bring it down
+                    heuristic -= 10/(dx*dx + dy*dy+0.1) // bring it up
+                } else {
+                    heuristic -= (10/distance)/(dx*dx + dy*dy+0.1) // bring it up
                 }
             }
         }

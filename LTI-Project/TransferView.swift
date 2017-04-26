@@ -121,7 +121,7 @@ class TransferView: UIView {
         let transferFnPath = UIBezierPath()
         var prevPoint: CGPoint?
         for point in points {
-            if let prevPoint = prevPoint {
+            if let _ = prevPoint {
                 transferFnPath.addLine(to: point)
             } else {
                 prevPoint = point
