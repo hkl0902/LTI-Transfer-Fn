@@ -119,20 +119,13 @@ class TransferView: UIView {
     
     func drawPoints(_ points: [CGPoint]) {
         let transferFnPath = UIBezierPath()
-        var prevPoint1: CGPoint?
-        var prevPoint2: CGPoint?
+        var prevPoint: CGPoint?
         for point in points {
-            if let prevP = prevPoint1 {
-                if let prevP2 = prevPoint2 {
-                    transferFnPath.addCurve(to: point, controlPoint1: prevP, controlPoint2: prevP2)
-                    prevPoint1 = prevPoint2
-                    prevPoint2 = point
-                } else {
-                    prevPoint2 = point
-                }
+            if let prevPoint = prevPoint {
+                transferFnPath.addLine(to: point)
             } else {
+                prevPoint = point
                 transferFnPath.move(to: point)
-                prevPoint1 = point
             }
         }
         if points.count > 0 {
